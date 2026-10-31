@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "What does the R2 metric (coefficient of determination) quantify?",
+        "options": [
+            "How well a regression model explains the variance of the outcome",
+            "The average absolute discrepancy between actual and predicted values",
+            "The ratio of true positive predictions out of all positive predictions",
+            "How similar instances are within their clusters"
+        ],
+        "answer": "How well a regression model explains the variance of the outcome"
+    }
+}

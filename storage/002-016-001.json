@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "What is the goal of dimensionality reduction?",
+        "options": [
+            "To reduce the number of features in the data while preserving as much information as possible.",
+            "To increase the number of features so that the data becomes linearly separable.",
+            "To label each data point with its nearest class.",
+            "To remove all noisy data points from the training dataset."
+        ],
+        "answer": "To reduce the number of features in the data while preserving as much information as possible."
+    }
+}

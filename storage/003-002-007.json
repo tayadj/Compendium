@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "Which set contains only discriminative models?",
+        "options": [
+            "Naive Bayes, Logistic Regression, Gaussian Mixture Models",
+            "Linear Regression, Logistic Regression, Support Vector Machines, Multilayer Perceptron",
+            "Support Vector Machines, Naive Bayes, Variational Autoencoders",
+            "Generative Adversarial Networks, Gaussian Mixture Models, Multilayer Perceptron"
+        ],
+        "answer": "Linear Regression, Logistic Regression, Support Vector Machines, Multilayer Perceptron"
+    }
+}

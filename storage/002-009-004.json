@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "How does SMOTE differ from random oversampling?",
+        "options": [
+            "SMOTE generates synthetic minority samples based on a subset of the minority class, instead of simply replicating existing instances.",
+            "SMOTE randomly eliminates samples from the majority class until the classes are balanced.",
+            "SMOTE adds a penalty to the loss function every time the minority class is misclassified.",
+            "SMOTE performs the train-test split automatically before balancing the classes."
+        ],
+        "answer": "SMOTE generates synthetic minority samples based on a subset of the minority class, instead of simply replicating existing instances."
+    }
+}

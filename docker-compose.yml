@@ -1,0 +1,23 @@
+services:
+  core:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: core
+    ports:
+      - "10000:10000"
+    volumes:
+      - ./storage:/environment/storage
+    models:
+      llm:
+        endpoint_var: CONFIGURATION___INFERENCE_ENDPOINT
+        model_var: CONFIGURATION___LLM_TAG
+      embedding:
+        endpoint_var: CONFIGURATION___INFERENCE_ENDPOINT
+        model_var: CONFIGURATION___EMBEDDING_TAG
+
+models:
+  llm:
+    model: ai/gemma4:E2B
+  embedding:
+    model: ai/embeddinggemma:300M-Q8_0

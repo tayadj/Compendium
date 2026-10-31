@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "What does batch normalization do for each mini-batch during training?",
+        "options": [
+            "Normalizes each feature map of every sample independently.",
+            "Divides the channels into groups and normalizes within each group.",
+            "Computes statistics per sample, across its features.",
+            "Computes the mean and variance of the activations across the mini-batch and scales them to roughly zero mean and unit variance."
+        ],
+        "answer": "Computes the mean and variance of the activations across the mini-batch and scales them to roughly zero mean and unit variance."
+    }
+}

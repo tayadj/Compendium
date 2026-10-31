@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "What is fine-tuning?",
+        "options": [
+            "Taking a pre-trained model and adjusting its parameters to adapt it to a new, specific task.",
+            "Training a brand-new model from randomly initialized weights.",
+            "Deleting the layers of a pre-trained model that are not needed.",
+            "Converting a model's outputs into probabilities that sum to one."
+        ],
+        "answer": "Taking a pre-trained model and adjusting its parameters to adapt it to a new, specific task."
+    }
+}

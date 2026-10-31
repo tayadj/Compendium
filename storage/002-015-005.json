@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "What does an SVM kernel function do?",
+        "options": [
+            "It transforms raw data into a high-dimensional space where it can be linearly separated.",
+            "It selects which k neighbours are used for the majority vote.",
+            "It estimates the covariance matrix of each class separately.",
+            "It removes noisy points from the training dataset before training."
+        ],
+        "answer": "It transforms raw data into a high-dimensional space where it can be linearly separated."
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "What is the difference between a core point and a border point in DBSCAN?",
+        "options": [
+            "A core point has the minimum number of points at distance epsilon from itself, while a border point lies within epsilon of core points but lacks enough neighbours to be called core itself.",
+            "A core point belongs to the largest cluster, while a border point belongs to the smallest one.",
+            "A core point is chosen randomly at the start, while a border point is the last point added to the cluster.",
+            "A core point has no neighbours at all, while a border point has exactly K neighbours."
+        ],
+        "answer": "A core point has the minimum number of points at distance epsilon from itself, while a border point lies within epsilon of core points but lacks enough neighbours to be called core itself."
+    }
+}

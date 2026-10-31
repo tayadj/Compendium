@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "Which of the following is NOT one of the neural network architectures covered in the lesson?",
+        "options": [
+            "Random Forest",
+            "Convolutional neural network",
+            "Graph neural network",
+            "Autoencoder network"
+        ],
+        "answer": "Random Forest"
+    }
+}

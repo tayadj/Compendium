@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "What does the Hughes phenomenon describe?",
+        "options": [
+            "Performance improves as features are added up to a point, after which it degrades because the model begins to fit the noise.",
+            "Performance always improves monotonically as more features are added.",
+            "Performance always decreases immediately as soon as any new feature is added.",
+            "Performance is unaffected by the number of features as long as the number of samples is large."
+        ],
+        "answer": "Performance improves as features are added up to a point, after which it degrades because the model begins to fit the noise."
+    }
+}

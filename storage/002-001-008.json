@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "What is the main goal of supervised learning?",
+        "options": [
+            "To learn a mapping function from input to output that works accurately on previously unseen data",
+            "To group data points based on their similarity and natural patterns",
+            "To maximize long-term success through rewards and penalties",
+            "To discover relationships between features without any target variable"
+        ],
+        "answer": "To learn a mapping function from input to output that works accurately on previously unseen data"
+    }
+}

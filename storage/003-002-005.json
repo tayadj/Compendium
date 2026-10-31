@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "Which of the following is a generative model?",
+        "options": [
+            "Gaussian Mixture Models",
+            "Support Vector Machines",
+            "Multilayer Perceptron",
+            "Linear Regression"
+        ],
+        "answer": "Gaussian Mixture Models"
+    }
+}

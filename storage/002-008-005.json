@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "Which techniques are typically associated with feature extraction (dimensionality reduction)?",
+        "options": [
+            "PCA and t-SNE",
+            "K-Means and DBSCAN",
+            "Linear regression and logistic regression",
+            "Q-Learning and SARSA"
+        ],
+        "answer": "PCA and t-SNE"
+    }
+}

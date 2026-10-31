@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "In supervised learning, what is the difference between regression and classification?",
+        "options": [
+            "Regression predicts a continuous value, while classification predicts a discrete class label.",
+            "Regression works with unlabeled data, while classification requires labeled data.",
+            "Regression finds hidden clusters in the data, while classification learns from rewards and penalties.",
+            "Regression can only handle text data, while classification can only handle images."
+        ],
+        "answer": "Regression predicts a continuous value, while classification predicts a discrete class label."
+    }
+}

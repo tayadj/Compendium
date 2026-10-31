@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "What is the role of normalization layers and residual connections in the Transformer?",
+        "options": [
+            "They allow scalability and flexibility of the model.",
+            "They generate the final translation output.",
+            "They replace the need for positional encoding.",
+            "They reduce the vocabulary size."
+        ],
+        "answer": "They allow scalability and flexibility of the model."
+    }
+}

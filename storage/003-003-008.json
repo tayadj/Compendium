@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "What does fine-tuning achieve?",
+        "options": [
+            "It makes the model forget the pre-training dataset completely.",
+            "It replaces the pre-trained patterns with brand-new ones.",
+            "It lets the model adapt to the nuances of the new dataset while retaining valuable information from pre-training.",
+            "It removes the need to evaluate the model on the new task."
+        ],
+        "answer": "It lets the model adapt to the nuances of the new dataset while retaining valuable information from pre-training."
+    }
+}

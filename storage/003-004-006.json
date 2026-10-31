@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "How does layer normalization compute its statistics?",
+        "options": [
+            "Per sample - across the features of each individual training example, rather than across samples.",
+            "Across the whole mini-batch for each feature.",
+            "Across all channels of all samples in the dataset.",
+            "Only once, before training begins, using the input data."
+        ],
+        "answer": "Per sample - across the features of each individual training example, rather than across samples."
+    }
+}

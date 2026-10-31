@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "Which statement best describes the difference between bagging and boosting?",
+        "options": [
+            "Bagging trains models independently on bootstrap subsets, while boosting trains them sequentially so each model corrects the errors of the previous one.",
+            "Bagging trains models sequentially, while boosting trains them independently in parallel.",
+            "Bagging is used only for regression, while boosting is used only for classification.",
+            "There is no difference - both terms describe data augmentation."
+        ],
+        "answer": "Bagging trains models independently on bootstrap subsets, while boosting trains them sequentially so each model corrects the errors of the previous one."
+    }
+}

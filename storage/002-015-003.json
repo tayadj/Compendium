@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "In which situations does KNN deteriorate?",
+        "options": [
+            "When the dataset is small and the feature space is low-dimensional.",
+            "With large amounts of data, high-dimensional data, or noisy data.",
+            "When the classes are perfectly linearly separable.",
+            "When distances between data points are easy to compute."
+        ],
+        "answer": "With large amounts of data, high-dimensional data, or noisy data."
+    }
+}

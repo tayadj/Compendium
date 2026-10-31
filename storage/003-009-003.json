@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "What is the role of pooling layers in a CNN?",
+        "options": [
+            "They slide filters over the input to capture textures.",
+            "They combine all extracted features into the final prediction.",
+            "They downsample feature maps, reducing computational complexity and extracting the most important features.",
+            "They convert images into sequences of tokens."
+        ],
+        "answer": "They downsample feature maps, reducing computational complexity and extracting the most important features."
+    }
+}

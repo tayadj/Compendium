@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "Which statement about ROC AUC and PR AUC is correct?",
+        "options": [
+            "ROC AUC is more effective for imbalanced datasets, while PR AUC is more effective for balanced datasets",
+            "PR AUC is more effective for imbalanced datasets, while ROC AUC is more effective for balanced datasets",
+            "Both metrics are designed only for regression problems",
+            "Both metrics are designed only for clustering problems"
+        ],
+        "answer": "ROC AUC is more effective for imbalanced datasets, while PR AUC is more effective for balanced datasets"
+    }
+}

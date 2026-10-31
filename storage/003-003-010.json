@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "What does transfer learning replace?",
+        "options": [
+            "The need for a test dataset.",
+            "The backpropagation algorithm during training.",
+            "The output layer's activation function.",
+            "Starting the learning process from scratch."
+        ],
+        "answer": "Starting the learning process from scratch."
+    }
+}

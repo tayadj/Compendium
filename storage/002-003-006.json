@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "Which regularization technique would you choose if you need a highly interpretable model that automatically selects the most important features?",
+        "options": [
+            "L1-regularization (Lasso), because it produces a sparse model with fewer non-zero weights.",
+            "L2-regularization (Ridge), because it keeps all features with small weights.",
+            "Elastic Net, because it never sets coefficients to zero.",
+            "No regularization, because removing features always reduces interpretability."
+        ],
+        "answer": "L1-regularization (Lasso), because it produces a sparse model with fewer non-zero weights."
+    }
+}

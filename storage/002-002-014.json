@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "Confidence(A -> B) is equal to:",
+        "options": [
+            "Support(A -> B) / Support(A)",
+            "Support(A -> B) / Support(B)",
+            "Confidence(A -> B) / Support(B)",
+            "Support(A) * Support(B)"
+        ],
+        "answer": "Support(A -> B) / Support(A)"
+    }
+}

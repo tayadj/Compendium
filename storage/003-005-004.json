@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "How does LIME build its explanation for a specific prediction?",
+        "options": [
+            "It retrains the entire neural network on a smaller dataset.",
+            "It deletes the least important neurons from the network.",
+            "It computes the gradient of the output with respect to every layer.",
+            "It slightly perturbs the input, observes how the prediction changes, and fits a simple linear surrogate model to these perturbed examples."
+        ],
+        "answer": "It slightly perturbs the input, observes how the prediction changes, and fits a simple linear surrogate model to these perturbed examples."
+    }
+}

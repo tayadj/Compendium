@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "You need to estimate the probability that an email is spam. Which method fits this task best?",
+        "options": [
+            "Logistic regression, which estimates the probability of a binary outcome using the sigmoid function.",
+            "Linear regression, since its output can be interpreted as a probability.",
+            "Least squares estimation applied directly to the class labels.",
+            "Linear regression, because spam is a continuous quantity."
+        ],
+        "answer": "Logistic regression, which estimates the probability of a binary outcome using the sigmoid function."
+    }
+}

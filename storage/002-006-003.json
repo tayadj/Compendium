@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "How does the epsilon-greedy algorithm balance exploration and exploitation?",
+        "options": [
+            "It chooses the best known action most of the time, while occasionally selecting a random action.",
+            "It strictly alternates between a random action and the best known action on every step.",
+            "It chooses randomly until the first reward is received, then never changes its behavior.",
+            "It always selects the action with the highest epsilon value."
+        ],
+        "answer": "It chooses the best known action most of the time, while occasionally selecting a random action."
+    }
+}

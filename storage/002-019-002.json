@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "What is the role of the policy in reinforcement learning?",
+        "options": [
+            "It stores the agent's experiences for later training.",
+            "It measures the immediate benefit or cost of an action.",
+            "It is a strategy mapping states to actions, with the goal of maximizing the cumulative reward, often discounted over time.",
+            "It represents the current situation of the environment."
+        ],
+        "answer": "It is a strategy mapping states to actions, with the goal of maximizing the cumulative reward, often discounted over time."
+    }
+}

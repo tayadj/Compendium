@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "What is the main risk of an agent that only exploits and never explores?",
+        "options": [
+            "It may lock onto a suboptimal choice and never discover a better alternative.",
+            "It gathers too much information and becomes unable to make decisions.",
+            "It consumes too much memory storing random actions.",
+            "It always achieves the maximum possible reward."
+        ],
+        "answer": "It may lock onto a suboptimal choice and never discover a better alternative."
+    }
+}

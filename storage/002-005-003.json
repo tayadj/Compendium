@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "Which statement best describes the bias-variance tradeoff?",
+        "options": [
+            "As we reduce bias error, we typically increase variance error, and vice versa.",
+            "Reducing bias always reduces variance at the same time.",
+            "Bias and variance are independent and can always be minimized together.",
+            "Increasing model complexity always reduces the total error."
+        ],
+        "answer": "As we reduce bias error, we typically increase variance error, and vice versa."
+    }
+}

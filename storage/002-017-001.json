@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "What is clustering?",
+        "options": [
+            "An unsupervised learning methodology that groups similar data points based on their features to detect natural groupings in the data.",
+            "A supervised learning method that assigns predefined class labels to data points.",
+            "A technique that reduces the number of features while preserving as much information as possible.",
+            "A reinforcement learning approach where an agent learns from rewards and penalties."
+        ],
+        "answer": "An unsupervised learning methodology that groups similar data points based on their features to detect natural groupings in the data."
+    }
+}

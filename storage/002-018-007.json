@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "Which search strategy does Eclat use, and when is it generally faster?",
+        "options": [
+            "Breadth-first search; faster on very sparse datasets with long TID lists.",
+            "Random search; faster when the minimum support threshold is very low.",
+            "Depth-first search; generally faster when the dataset is dense and the TID lists are manageable.",
+            "Best-first search with a hash-tree; faster on high-dimensional numeric data."
+        ],
+        "answer": "Depth-first search; generally faster when the dataset is dense and the TID lists are manageable."
+    }
+}

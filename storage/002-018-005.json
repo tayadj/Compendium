@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "Which criteria does Apriori use to evaluate the rules it generates?",
+        "options": [
+            "Variance and covariance.",
+            "Confidence and lift.",
+            "Precision and recall.",
+            "Epsilon and the minimum number of points."
+        ],
+        "answer": "Confidence and lift."
+    }
+}

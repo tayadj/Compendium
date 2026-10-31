@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "What is overfitting?",
+        "options": [
+            "When a model learns the training data too well, including its noise, and performs poorly on unseen data.",
+            "When a model is too simple to capture the patterns in the training data.",
+            "When a model performs poorly on training data but well on validation data.",
+            "When a model trains too slowly because of an excessive learning rate."
+        ],
+        "answer": "When a model learns the training data too well, including its noise, and performs poorly on unseen data."
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "How does QDA differ from LDA?",
+        "options": [
+            "QDA requires all classes to share a common covariance matrix, which gives linear decision boundaries.",
+            "QDA lets each class have its own covariance matrix, which produces quadratic decision boundaries.",
+            "QDA is based on nearest neighbours, while LDA is based on Bayes' theorem.",
+            "QDA is used only for regression, while LDA is used only for clustering."
+        ],
+        "answer": "QDA lets each class have its own covariance matrix, which produces quadratic decision boundaries."
+    }
+}

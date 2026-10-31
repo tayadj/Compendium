@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "Which of the following algorithms belongs to reinforcement learning?",
+        "options": [
+            "Random forests",
+            "Gradient boosting machines",
+            "State-Action-Reward-State-Action (SARSA)",
+            "Hierarchical clustering"
+        ],
+        "answer": "State-Action-Reward-State-Action (SARSA)"
+    }
+}

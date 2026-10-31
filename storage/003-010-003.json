@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "What is the purpose of multi-head attention?",
+        "options": [
+            "To process only the most important word in the sentence.",
+            "To use multiple attention heads that each learn to attend to different parts of the input, capturing different patterns and correlations.",
+            "To replace the encoder-decoder structure with a single layer.",
+            "To make the model slower but more accurate on short sequences."
+        ],
+        "answer": "To use multiple attention heads that each learn to attend to different parts of the input, capturing different patterns and correlations."
+    }
+}

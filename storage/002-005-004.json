@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "A model performs poorly on BOTH training and validation data. What is the most likely cause?",
+        "options": [
+            "High bias, the model is underfitting due to overly simplistic assumptions.",
+            "High variance, the model is overfitting the training data.",
+            "Too little noise in the training data.",
+            "The model is too complex for the task."
+        ],
+        "answer": "High bias, the model is underfitting due to overly simplistic assumptions."
+    }
+}

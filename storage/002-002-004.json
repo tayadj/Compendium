@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "In which situation is recall the most suitable metric?",
+        "options": [
+            "When each false positive is costly, e.g. blocking a legitimate transaction",
+            "When each false negative is costly, e.g. missing a dangerous disease diagnosis",
+            "When we need to explain the variance of the outcome",
+            "When we need to measure how popular an itemset is"
+        ],
+        "answer": "When each false negative is costly, e.g. missing a dangerous disease diagnosis"
+    }
+}

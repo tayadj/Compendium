@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "Which parameter estimation approach is most common for logistic regression?",
+        "options": [
+            "The method of maximum likelihood, which aims at maximizing the log-likelihood function.",
+            "Least squares estimation of the residual sum of squares.",
+            "Bootstrap aggregation of parameter estimates.",
+            "Gradient clipping of the log-likelihood."
+        ],
+        "answer": "The method of maximum likelihood, which aims at maximizing the log-likelihood function."
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "Which model–type pair is matched correctly?",
+        "options": [
+            "Variational Autoencoders - generative model",
+            "Naive Bayes - discriminative model",
+            "Support Vector Machines - generative model",
+            "Generative Adversarial Networks - discriminative model"
+        ],
+        "answer": "Variational Autoencoders - generative model"
+    }
+}

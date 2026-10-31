@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "What is the dead neuron problem that Leaky ReLU helps to prevent?",
+        "options": [
+            "A neuron outputs values that grow without bound during training.",
+            "A neuron always outputs zero and no longer contributes to the learning process.",
+            "A neuron receives inputs from too many other neurons.",
+            "A neuron produces probabilities that do not sum to one."
+        ],
+        "answer": "A neuron always outputs zero and no longer contributes to the learning process."
+    }
+}

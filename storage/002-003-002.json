@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "Which property makes L1-regularization (Lasso) useful for feature selection?",
+        "options": [
+            "It pushes many coefficients exactly to zero, effectively removing those features.",
+            "It distributes the penalty evenly across all correlated features.",
+            "It squares the coefficients, which amplifies the contribution of weak features.",
+            "It automatically removes the hyperparameter from the loss function."
+        ],
+        "answer": "It pushes many coefficients exactly to zero, effectively removing those features."
+    }
+}

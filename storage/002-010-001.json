@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "What is cross-validation?",
+        "options": [
+            "A technique used to evaluate the model by partitioning the dataset into subsets and training and validating on them multiple times.",
+            "A technique for balancing classes by resampling the dataset.",
+            "A technique for reducing the number of features in a dataset.",
+            "A technique for generating synthetic samples of the minority class."
+        ],
+        "answer": "A technique used to evaluate the model by partitioning the dataset into subsets and training and validating on them multiple times."
+    }
+}

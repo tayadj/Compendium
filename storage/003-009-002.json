@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "What do convolutional layers do?",
+        "options": [
+            "Downsample feature maps to reduce computational complexity.",
+            "Apply kernels (filters) to the input to capture local structures like borders or textures.",
+            "Combine extracted features and generate the final outputs.",
+            "Store the previous context between time steps."
+        ],
+        "answer": "Apply kernels (filters) to the input to capture local structures like borders or textures."
+    }
+}

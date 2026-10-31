@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "Which of the following is a supervised learning algorithm?",
+        "options": [
+            "K-Means clustering",
+            "Linear regression",
+            "Principal component analysis",
+            "Q-Learning"
+        ],
+        "answer": "Linear regression"
+    }
+}

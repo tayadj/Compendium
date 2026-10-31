@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "Which of the following are popular applications of the association technique?",
+        "options": [
+            "Image segmentation and face detection.",
+            "Spam filtering and sentiment analysis.",
+            "Handwriting recognition and speech-to-text.",
+            "Basket data analysis, web usage mining and medical diagnosis."
+        ],
+        "answer": "Basket data analysis, web usage mining and medical diagnosis."
+    }
+}

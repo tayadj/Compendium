@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "What is the main purpose of the LSTM architecture?",
+        "options": [
+            "To make RNNs train faster by processing all tokens in parallel.",
+            "To overcome vanishing and exploding gradient problems and capture long-term dependencies.",
+            "To remove the need for hidden layers.",
+            "To convert sequential data into images."
+        ],
+        "answer": "To overcome vanishing and exploding gradient problems and capture long-term dependencies."
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "How do LIME and SHAP differ in the scope of interpretability they provide?",
+        "options": [
+            "Both provide only global interpretability.",
+            "LIME provides global interpretability, while SHAP provides only local.",
+            "LIME provides only local interpretability, while SHAP provides both local and global.",
+            "Neither provides interpretability - both only speed up training."
+        ],
+        "answer": "LIME provides only local interpretability, while SHAP provides both local and global."
+    }
+}

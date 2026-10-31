@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "What's the difference between supervised and unsupervised learning?",
+        "options": [
+            "Supervised learning uses labeled data, while unsupervised - unlabeled.",
+            "Supervised learning finds hidden patterns in data, while unsupervised learning predicts predefined categories.",
+            "Supervised learning learns from rewards and penalties, while unsupervised learning learns from labels.",
+            "Supervised learning works only with text data, while unsupervised learning works only with images."
+        ],
+        "answer": "Supervised learning uses labeled data, while unsupervised - unlabeled."
+    }
+}

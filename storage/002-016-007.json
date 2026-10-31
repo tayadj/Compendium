@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "Which statement about PCA and t-SNE is correct?",
+        "options": [
+            "PCA is a linear technique, while t-SNE is non-linear.",
+            "PCA is non-linear, while t-SNE is linear.",
+            "Both PCA and t-SNE are non-linear techniques.",
+            "Both PCA and t-SNE are linear techniques."
+        ],
+        "answer": "PCA is a linear technique, while t-SNE is non-linear."
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "What characterizes leave-p-out cross-validation?",
+        "options": [
+            "In each iteration, p samples are held out as the validation set, and the model is trained on the remaining data.",
+            "The dataset is randomly split into p folds of equal size.",
+            "The model is trained p times on the same training set.",
+            "p percent of the samples are removed from the dataset before training."
+        ],
+        "answer": "In each iteration, p samples are held out as the validation set, and the model is trained on the remaining data."
+    }
+}

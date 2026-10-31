@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "Which two parameters does DBSCAN rely on?",
+        "options": [
+            "The number of clusters K and the number of iterations.",
+            "The learning rate and the margin width.",
+            "Epsilon - the neighbourhood radius - and the minimum number of points required to form a dense region.",
+            "The number of principal components and the explained variance."
+        ],
+        "answer": "Epsilon - the neighbourhood radius - and the minimum number of points required to form a dense region."
+    }
+}

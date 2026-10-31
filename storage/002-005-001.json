@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "What is bias in the context of machine learning?",
+        "options": [
+            "The error introduced by overly simplistic assumptions in the model, leading to underfitting.",
+            "The model's sensitivity to fluctuations in the training data, leading to overfitting.",
+            "The part of the error that cannot be reduced no matter how good the model is.",
+            "The error caused by having too much training data."
+        ],
+        "answer": "The error introduced by overly simplistic assumptions in the model, leading to underfitting."
+    }
+}

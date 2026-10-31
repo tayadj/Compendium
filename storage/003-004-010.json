@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "Which normalization type is widely used in style transfer and generation applications, and why?",
+        "options": [
+            "Instance normalization - it removes instance-specific contrast information, emphasizing content over style.",
+            "Batch normalization - it removes the need for mini-batches.",
+            "Layer normalization - it merges the style of all samples together.",
+            "Group normalization - it splits each image into styled groups."
+        ],
+        "answer": "Instance normalization - it removes instance-specific contrast information, emphasizing content over style."
+    }
+}

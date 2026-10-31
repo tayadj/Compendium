@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "What is the difference between clustering and association in unsupervised learning?",
+        "options": [
+            "Clustering groups data points based on their similarity and natural patterns, while association discovers relationships between different data points or their features.",
+            "Clustering uses labeled data, while association uses unlabeled data.",
+            "Clustering predicts continuous values, while association predicts discrete categories.",
+            "Clustering learns from rewards and penalties, while association learns from labels."
+        ],
+        "answer": "Clustering groups data points based on their similarity and natural patterns, while association discovers relationships between different data points or their features."
+    }
+}

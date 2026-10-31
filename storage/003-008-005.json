@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "What does the forget gate in an LSTM do?",
+        "options": [
+            "Decides what information to discard from the previous cell state.",
+            "Determines which new information is added to the cell state.",
+            "Regulates what information from the cell state is exposed to the next time step.",
+            "Determines how many time steps the network can process."
+        ],
+        "answer": "Decides what information to discard from the previous cell state."
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "What is the difference between classification and regression in supervised learning?",
+        "options": [
+            "Classification predicts a discrete target, while regression predicts a continuous variable.",
+            "Classification predicts a continuous variable, while regression predicts a discrete target.",
+            "Classification requires unlabeled data, while regression requires labeled data.",
+            "Classification is a type of unsupervised learning, while regression is a type of reinforcement learning."
+        ],
+        "answer": "Classification predicts a discrete target, while regression predicts a continuous variable."
+    }
+}

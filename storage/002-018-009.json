@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "A shop wants to discover rules like 'customers who buy bread also buy butter' from millions of transactions. Which technique does this describe?",
+        "options": [
+            "Principal component analysis on the transaction matrix.",
+            "Association rule learning - a classic basket data analysis use case.",
+            "K-means clustering of customers into K groups.",
+            "K-nearest neighbours classification of transactions."
+        ],
+        "answer": "Association rule learning - a classic basket data analysis use case."
+    }
+}

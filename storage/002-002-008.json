@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "Which regression metric is robust to outliers and easy to interpret, but is mathematically not smooth?",
+        "options": [
+            "Mean absolute error",
+            "Mean squared error",
+            "R2 metric",
+            "Silhouette Score"
+        ],
+        "answer": "Mean absolute error"
+    }
+}

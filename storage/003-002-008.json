@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "Which set contains only generative models?",
+        "options": [
+            "Logistic Regression, Naive Bayes, Gaussian Mixture Models",
+            "Linear Regression, Support Vector Machines, Generative Adversarial Networks",
+            "Multilayer Perceptron, Variational Autoencoders, Naive Bayes",
+            "Naive Bayes, Gaussian Mixture Models, Generative Adversarial Networks, Variational Autoencoders"
+        ],
+        "answer": "Naive Bayes, Gaussian Mixture Models, Generative Adversarial Networks, Variational Autoencoders"
+    }
+}

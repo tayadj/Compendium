@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "What does backpropagation do during training?",
+        "options": [
+            "Adjusts the weights to minimize the difference between the network's predictions and the actual targets.",
+            "Randomly re-initializes all weights after every training epoch.",
+            "Adds new hidden layers until the error stops decreasing.",
+            "Converts the network's raw outputs into probabilities."
+        ],
+        "answer": "Adjusts the weights to minimize the difference between the network's predictions and the actual targets."
+    }
+}

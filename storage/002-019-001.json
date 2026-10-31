@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "How does reinforcement learning differ from supervised learning?",
+        "options": [
+            "RL requires a large labeled dataset, while supervised learning does not.",
+            "RL learns by trial-and-error guided by rewards and penalties through interaction with an environment, while supervised learning relies on labeled datasets.",
+            "RL predicts continuous values, while supervised learning predicts discrete classes.",
+            "RL discovers co-occurrence rules in transaction data, while supervised learning groups similar data points."
+        ],
+        "answer": "RL learns by trial-and-error guided by rewards and penalties through interaction with an environment, while supervised learning relies on labeled datasets."
+    }
+}

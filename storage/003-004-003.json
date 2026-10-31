@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "Why is normalization crucial for training neural networks?",
+        "options": [
+            "It stabilizes and accelerates training, reduces sensitivity to parameter initialization, and mitigates internal covariate shift.",
+            "It guarantees that the network will never overfit the training data.",
+            "It eliminates the need for any activation functions in the network.",
+            "It allows the network to train without a loss function."
+        ],
+        "answer": "It stabilizes and accelerates training, reduces sensitivity to parameter initialization, and mitigates internal covariate shift."
+    }
+}

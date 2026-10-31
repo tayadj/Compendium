@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "What does the learning rate determine in gradient descent?",
+        "options": [
+            "The size of the steps taken after each iteration of the algorithm.",
+            "The number of layers in the model.",
+            "How many times the entire dataset is shuffled during training.",
+            "The number of parameters to be optimized."
+        ],
+        "answer": "The size of the steps taken after each iteration of the algorithm."
+    }
+}

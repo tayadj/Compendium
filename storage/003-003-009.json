@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "You need to build a classifier for a new task, but you have only a small labeled dataset and limited computing power. Which approach best fits the idea of transfer learning?",
+        "options": [
+            "Train a brand-new model from scratch on the small dataset until it memorizes it.",
+            "Take a pre-trained model and fine-tune it on the small dataset.",
+            "Collect a vast amount of additional labeled data before starting.",
+            "Skip training and let the model generate its own labels."
+        ],
+        "answer": "Take a pre-trained model and fine-tune it on the small dataset."
+    }
+}

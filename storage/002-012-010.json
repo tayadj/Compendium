@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "The random forest is a classic example of which ensemble approach?",
+        "options": [
+            "Bagging",
+            "Boosting",
+            "Gradient clipping",
+            "K-fold cross-validation"
+        ],
+        "answer": "Bagging"
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "What characterizes bagging?",
+        "options": [
+            "Independent training of the same learning algorithm on different bootstrap subsets of the training data.",
+            "Sequential training where each model corrects the errors of the previous one.",
+            "Training one model on the full dataset with an increased learning rate.",
+            "Averaging the weights of several independently trained neural networks."
+        ],
+        "answer": "Independent training of the same learning algorithm on different bootstrap subsets of the training data."
+    }
+}

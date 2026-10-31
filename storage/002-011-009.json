@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "Which of the following helps mitigate exploding gradients?",
+        "options": [
+            "Implementing gradient clipping, careful weight initialization, and layer or batch normalization.",
+            "Using ReLU activations only in the earlier layers.",
+            "Adding residual connections between distant layers.",
+            "Stopping the training at the first iteration."
+        ],
+        "answer": "Implementing gradient clipping, careful weight initialization, and layer or batch normalization."
+    }
+}

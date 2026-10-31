@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "If epsilon is set to 0 in the epsilon-greedy algorithm, how will the agent behave?",
+        "options": [
+            "It will always exploit, choosing the best known action every time.",
+            "It will always explore, choosing a random action every time.",
+            "It will alternate equally between exploration and exploitation.",
+            "It will behave exactly the same as with epsilon = 1."
+        ],
+        "answer": "It will always exploit, choosing the best known action every time."
+    }
+}

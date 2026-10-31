@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "What does Gini impurity estimate?",
+        "options": [
+            "The probability of misclassification when randomly choosing an element from the node and labeling it; it is defined as 1 − Σ p(i)².",
+            "The uncertainty of the data, computed as the negative sum of p(i) · log₂ p(i).",
+            "The reduction of impurity achieved by a split.",
+            "The average depth of the tree."
+        ],
+        "answer": "The probability of misclassification when randomly choosing an element from the node and labeling it; it is defined as 1 − Σ p(i)²."
+    }
+}

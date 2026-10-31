@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "Which activation function maps its input to the range (0, 1) and is therefore suitable for binary classification?",
+        "options": [
+            "ReLU",
+            "Sigmoid",
+            "Softmax",
+            "Leaky ReLU"
+        ],
+        "answer": "Sigmoid"
+    }
+}

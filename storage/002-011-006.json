@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "In which setting does SGD generally work better than batch gradient descent?",
+        "options": [
+            "In high-dimensional problems.",
+            "Only in problems with a single parameter.",
+            "Only when the dataset has very few records.",
+            "In problems where the loss function has no gradient."
+        ],
+        "answer": "In high-dimensional problems."
+    }
+}

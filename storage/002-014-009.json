@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "How is information gain computed?",
+        "options": [
+            "As the difference between the impurity of the parent node and the weighted sum of the impurities of the children nodes.",
+            "As the sum of the entropies of all leaves.",
+            "As the ratio of the number of classes to the number of samples.",
+            "As the product of the parent impurity and the number of children."
+        ],
+        "answer": "As the difference between the impurity of the parent node and the weighted sum of the impurities of the children nodes."
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "What does instance normalization normalize?",
+        "options": [
+            "All activations of the network against a single global mean and variance.",
+            "Each instance separately, and within it each feature map (channel), treating each channel and each example independently.",
+            "The weights of the first layer only.",
+            "The gradients of the loss with respect to the batch."
+        ],
+        "answer": "Each instance separately, and within it each feature map (channel), treating each channel and each example independently."
+    }
+}

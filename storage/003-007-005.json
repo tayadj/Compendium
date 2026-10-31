@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "What role does the loss function play in training an FNN?",
+        "options": [
+            "It aggregates information within each hidden neuron.",
+            "It computes the error (residual term) between the prediction and the target, which backward propagation then uses.",
+            "It decides how many hidden layers the network needs.",
+            "It converts the final hidden representation into the output prediction."
+        ],
+        "answer": "It computes the error (residual term) between the prediction and the target, which backward propagation then uses."
+    }
+}

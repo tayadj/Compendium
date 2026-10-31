@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "What distinguishes the sliding window variation of chain cross-validation for time series?",
+        "options": [
+            "After each iteration, the train and test window is moved forward by a fixed number of time steps.",
+            "The training subset keeps increasing with every iteration.",
+            "The test set always contains the very first records of the series.",
+            "The folds are shuffled randomly before each iteration."
+        ],
+        "answer": "After each iteration, the train and test window is moved forward by a fixed number of time steps."
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "How does DBSCAN form a cluster, and when does it stop?",
+        "options": [
+            "It assigns all points to the nearest centroid and stops when the centroids stop moving.",
+            "It starts from a randomly selected point and expands the cluster by recursively adding neighbouring points, stopping when all points are assigned to a cluster or labeled as noise.",
+            "It merges the closest clusters one by one and stops when the dendrogram is complete.",
+            "It stops as soon as the first core point is found, leaving all remaining points as noise."
+        ],
+        "answer": "It starts from a randomly selected point and expands the cluster by recursively adding neighbouring points, stopping when all points are assigned to a cluster or labeled as noise."
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "What data format does Eclat adopt, and how does it compute support?",
+        "options": [
+            "A vertical format where each item is associated with transaction IDs, and support is determined by intersecting the transaction ID lists.",
+            "A horizontal format where each transaction lists its items, and support is counted by rescanning the dataset.",
+            "A tree format where items are stored as branches of a prefix tree.",
+            "A matrix format where support is computed from the eigenvalues of the covariance matrix."
+        ],
+        "answer": "A vertical format where each item is associated with transaction IDs, and support is determined by intersecting the transaction ID lists."
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "What is the core idea behind Momentum?",
+        "options": [
+            "Keeping an exponential moving average of squared gradients to rescale each learning rate.",
+            "Accumulating a moving average of past gradients - a velocity that dampens oscillations and accelerates consistent directions.",
+            "Multiplying the gradient by the inverse Hessian at every step.",
+            "Restarting training whenever the loss stops decreasing."
+        ],
+        "answer": "Accumulating a moving average of past gradients - a velocity that dampens oscillations and accelerates consistent directions."
+    }
+}

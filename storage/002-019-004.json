@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "What is the correct order of the reinforcement learning process cycle?",
+        "options": [
+            "Feedback -> learning -> interaction -> initialization.",
+            "Learning -> initialization -> feedback -> interaction.",
+            "Interaction -> initialization -> learning -> feedback.",
+            "Initialization -> interaction -> feedback -> learning."
+        ],
+        "answer": "Initialization -> interaction -> feedback -> learning."
+    }
+}

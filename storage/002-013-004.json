@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "What is the role of the sigmoid function in logistic regression?",
+        "options": [
+            "It constrains the output to the range from 0 to 1.",
+            "It minimizes the residual sum of squares.",
+            "It converts a continuous target into a categorical one by rounding.",
+            "It increases the learning rate during training."
+        ],
+        "answer": "It constrains the output to the range from 0 to 1."
+    }
+}

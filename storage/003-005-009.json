@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "Which statement about LIME and SHAP is correct?",
+        "options": [
+            "LIME is based on Shapley values, while SHAP fits a linear surrogate model.",
+            "LIME explains individual predictions by approximating the model locally with a simpler surrogate model, while SHAP distributes feature importance fairly across predictions using Shapley values.",
+            "Both techniques require retraining the neural network from scratch.",
+            "SHAP perturbs only the input images, while LIME perturbs only the output labels."
+        ],
+        "answer": "LIME explains individual predictions by approximating the model locally with a simpler surrogate model, while SHAP distributes feature importance fairly across predictions using Shapley values."
+    }
+}

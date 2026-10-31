@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "What is an imbalanced dataset in a classification problem?",
+        "options": [
+            "A dataset in which one class has significantly fewer samples than the other class(es).",
+            "A dataset that contains too many features relative to the number of samples.",
+            "A dataset where most feature values are missing or inconsistent.",
+            "A dataset in which all classes have exactly the same number of samples."
+        ],
+        "answer": "A dataset in which one class has significantly fewer samples than the other class(es)."
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "What benefit does transfer learning provide for the learning process?",
+        "options": [
+            "Faster convergence compared to starting from scratch.",
+            "Guaranteed 100% accuracy on the new task.",
+            "Elimination of the need for any fine-tuning.",
+            "A smaller model architecture that stores less information."
+        ],
+        "answer": "Faster convergence compared to starting from scratch."
+    }
+}

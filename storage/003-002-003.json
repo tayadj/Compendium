@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "Which capability do generative models have that discriminative models do not focus on?",
+        "options": [
+            "Classifying inputs into predefined categories.",
+            "Mapping an input vector directly to an output value.",
+            "Learning a decision boundary between classes.",
+            "Generating new samples from the learned data distribution."
+        ],
+        "answer": "Generating new samples from the learned data distribution."
+    }
+}

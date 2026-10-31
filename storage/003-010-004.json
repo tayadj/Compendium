@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "Why does the Transformer need positional encoding?",
+        "options": [
+            "Because it processes tokens in parallel and has no inherent notion of word order, unlike RNNs or LSTMs.",
+            "Because attention heads cannot handle long words.",
+            "Because the loss function requires absolute positions to converge.",
+            "Because the encoder and decoder must share the same weights."
+        ],
+        "answer": "Because it processes tokens in parallel and has no inherent notion of word order, unlike RNNs or LSTMs."
+    }
+}

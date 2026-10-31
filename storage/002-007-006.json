@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "Which of the following is NOT a common strategy to combat the curse of dimensionality?",
+        "options": [
+            "Increasing the number of features as much as possible.",
+            "Dimensionality reduction.",
+            "Feature selection.",
+            "Regularization."
+        ],
+        "answer": "Increasing the number of features as much as possible."
+    }
+}

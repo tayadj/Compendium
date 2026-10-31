@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "Why do neural networks need activation functions?",
+        "options": [
+            "They reduce the number of neurons required in the input layer.",
+            "They replace the bias term in every neuron.",
+            "They introduce non-linearity - without it, the network would simply represent a linear transformation of its inputs.",
+            "They allow the network to be trained without any data."
+        ],
+        "answer": "They introduce non-linearity - without it, the network would simply represent a linear transformation of its inputs."
+    }
+}

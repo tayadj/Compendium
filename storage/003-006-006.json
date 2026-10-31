@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "Adam is a combination of which two optimization methods?",
+        "options": [
+            "Gradient descent and Newton's method.",
+            "Newton's method and RMSProp.",
+            "Momentum and gradient descent with a fixed learning rate.",
+            "Momentum and RMSProp."
+        ],
+        "answer": "Momentum and RMSProp."
+    }
+}

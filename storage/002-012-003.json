@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "What is the main benefit of bagging?",
+        "options": [
+            "It reduces variance and overfitting, ensuring more robust solutions.",
+            "It increases the bias of each individual model.",
+            "It eliminates the need for a validation set.",
+            "It guarantees the lowest possible training error."
+        ],
+        "answer": "It reduces variance and overfitting, ensuring more robust solutions."
+    }
+}

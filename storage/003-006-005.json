@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "How does RMSProp adjust learning rates?",
+        "options": [
+            "It uses one global learning rate that decays at the same speed for all parameters.",
+            "It gives each parameter its own learning rate based on the exponential moving average of its squared gradients.",
+            "It sets every learning rate equal to the inverse Hessian of the loss.",
+            "It alternates between large and small learning rates at random."
+        ],
+        "answer": "It gives each parameter its own learning rate based on the exponential moving average of its squared gradients."
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "Which statement about pre-trained models is correct?",
+        "options": [
+            "They are built exclusively for a single, narrow task and cannot be adapted.",
+            "They must be retrained from zero each time they are reused.",
+            "They are trained on a vast amount of data and can be reused for specific tasks.",
+            "They only store raw data instead of learned patterns."
+        ],
+        "answer": "They are trained on a vast amount of data and can be reused for specific tasks."
+    }
+}

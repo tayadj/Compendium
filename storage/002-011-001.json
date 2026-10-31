@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "What is gradient descent?",
+        "options": [
+            "An optimization algorithm that minimizes the loss function by iteratively adjusting the model parameters in the direction of the steepest descent of the gradient.",
+            "An algorithm that increases the loss function until the model memorizes the training data.",
+            "A technique for splitting the dataset into training and test subsets.",
+            "A method for balancing classes by resampling the training data."
+        ],
+        "answer": "An optimization algorithm that minimizes the loss function by iteratively adjusting the model parameters in the direction of the steepest descent of the gradient."
+    }
+}

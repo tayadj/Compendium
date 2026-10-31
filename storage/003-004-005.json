@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "Which of the following is a benefit of batch normalization?",
+        "options": [
+            "It removes the need for a validation dataset.",
+            "It speeds up convergence, allows higher learning rates, and often reduces the need for dropout or other regularization.",
+            "It makes the network independent of the order of training examples.",
+            "It guarantees convergence to the global minimum."
+        ],
+        "answer": "It speeds up convergence, allows higher learning rates, and often reduces the need for dropout or other regularization."
+    }
+}

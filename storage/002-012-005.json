@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "What happens to misclassified instances during boosting?",
+        "options": [
+            "They are assigned higher weights, prioritizing them in subsequent iterations.",
+            "They are removed from the training dataset.",
+            "They are used only as a validation set.",
+            "They are ignored, since the ensemble focuses on correctly classified data."
+        ],
+        "answer": "They are assigned higher weights, prioritizing them in subsequent iterations."
+    }
+}

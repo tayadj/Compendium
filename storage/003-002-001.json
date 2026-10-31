@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "What is the main focus of discriminative models?",
+        "options": [
+            "Learning the underlying data distribution and generating new samples from it.",
+            "Modeling the joint distribution of input and output simultaneously.",
+            "Learning a decision boundary between classes and directly mapping an input X to an output Y.",
+            "Capturing only the underlying structure of the inputs themselves."
+        ],
+        "answer": "Learning a decision boundary between classes and directly mapping an input X to an output Y."
+    }
+}

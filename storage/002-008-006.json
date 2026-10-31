@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "Why might raw features need to be transformed before being fed into a machine learning model?",
+        "options": [
+            "Because raw features may not fit the assumptions or structure required by the model",
+            "Because transformed features always increase the size of the dataset",
+            "Because machine learning models can only work with categorical data",
+            "Because transformation eliminates the need for model training"
+        ],
+        "answer": "Because raw features may not fit the assumptions or structure required by the model"
+    }
+}

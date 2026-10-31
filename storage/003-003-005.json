@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "Why can pre-trained models be adapted to new tasks with relatively little additional training data?",
+        "options": [
+            "They copy the correct answers directly from the training dataset.",
+            "They have already learned to recognize patterns and generalize them within the knowledge they were trained on.",
+            "They do not need to learn any patterns for the new task.",
+            "They automatically create the missing labels for the new task."
+        ],
+        "answer": "They have already learned to recognize patterns and generalize them within the knowledge they were trained on."
+    }
+}

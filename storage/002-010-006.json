@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "Which cross-validation approach is used in time series analysis, where the model is iteratively trained on a growing subset of data and validated on the next data record?",
+        "options": [
+            "Chain cross-validation",
+            "Leave-one-out cross-validation",
+            "Standard K-fold with shuffled folds",
+            "Random oversampling"
+        ],
+        "answer": "Chain cross-validation"
+    }
+}

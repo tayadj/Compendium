@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "How do Q-Learning and SARSA differ in terms of policy?",
+        "options": [
+            "Q-Learning is on-policy, while SARSA is off-policy.",
+            "Q-Learning is off-policy, while SARSA is on-policy and learns the value of taking actions according to the current policy.",
+            "Both are off-policy and always follow the greedy policy.",
+            "Both are on-policy; the difference lies only in the learning rate."
+        ],
+        "answer": "Q-Learning is off-policy, while SARSA is on-policy and learns the value of taking actions according to the current policy."
+    }
+}

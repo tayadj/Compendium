@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "In LIME, how are the most important features for a specific instance identified?",
+        "options": [
+            "By the order in which the features were fed into the network.",
+            "Features with the highest coefficients in the fitted linear model are considered the most important.",
+            "By counting how often each feature appears in the dataset.",
+            "Features whose perturbation never changes the prediction."
+        ],
+        "answer": "Features with the highest coefficients in the fitted linear model are considered the most important."
+    }
+}

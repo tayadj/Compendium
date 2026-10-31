@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "Which normalization method strikes a balance between layer and batch normalization and works consistently even with small mini-batch sizes?",
+        "options": [
+            "Batch normalization",
+            "Layer normalization",
+            "Group normalization",
+            "Instance normalization"
+        ],
+        "answer": "Group normalization"
+    }
+}

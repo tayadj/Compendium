@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "What is the key difference between discriminative and generative models?",
+        "options": [
+            "Discriminative models require more training data, while generative models work without any data.",
+            "Discriminative models generate new data samples, while generative models classify inputs into categories.",
+            "Discriminative models learn the conditional probability of the output given the input, while generative models model the joint distribution of input and output and can generate new samples.",
+            "Discriminative models capture the underlying structure of the inputs, while generative models ignore it."
+        ],
+        "answer": "Discriminative models learn the conditional probability of the output given the input, while generative models model the joint distribution of input and output and can generate new samples."
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "What are vanishing gradients?",
+        "options": [
+            "Gradients that become exceedingly small as they are propagated back through many layers, so the earlier layers learn very slowly or not at all.",
+            "Gradients that become excessively large and cause numerical instability.",
+            "Gradients that are manually set to zero before backpropagation.",
+            "Gradients that appear only in the output layer of the model."
+        ],
+        "answer": "Gradients that become exceedingly small as they are propagated back through many layers, so the earlier layers learn very slowly or not at all."
+    }
+}

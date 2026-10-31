@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "Why is neural network interpretability important?",
+        "options": [
+            "It helps understand how models make predictions and ensures transparency of AI systems.",
+            "It compresses neural networks so they run faster on mobile devices.",
+            "It increases the accuracy of a model on the test set.",
+            "It visualizes the raw training data before model training."
+        ],
+        "answer": "It helps understand how models make predictions and ensures transparency of AI systems."
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "What happens during forward propagation?",
+        "options": [
+            "The error is propagated backward to update the weights and biases.",
+            "The input passes sequentially through the layers, and the final layer converts the transformed information into the prediction.",
+            "The loss function is minimized directly by adjusting the learning rate.",
+            "The network randomly re-initializes its weights after each prediction."
+        ],
+        "answer": "The input passes sequentially through the layers, and the final layer converts the transformed information into the prediction."
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "What are ensemble methods?",
+        "options": [
+            "Methods that combine several models to improve predictive performance over any single model, leveraging the crowd wisdom phenomenon.",
+            "Methods that train a single model repeatedly on the entire dataset until convergence.",
+            "Methods that reduce the number of features before model training.",
+            "Methods that split the data into folds for model evaluation."
+        ],
+        "answer": "Methods that combine several models to improve predictive performance over any single model, leveraging the crowd wisdom phenomenon."
+    }
+}

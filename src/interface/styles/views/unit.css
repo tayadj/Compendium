@@ -1,0 +1,136 @@
+#wrapper.unit .container {
+    width: 960px;
+    height: 100vh;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column; 
+}
+
+#wrapper.unit .container .header {
+    width: auto;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#wrapper.unit .container .header .card {
+    width: 160px;
+    height: 160px;
+    margin: var(--space-m);
+    border-radius: 24px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    user-select: none;
+
+    background-color: var(--color-background);
+}
+
+#wrapper.unit .container .header .card .icon {
+    width: 64px;
+    height: 64px;
+    margin: 16px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font: var(--text-xl-font);
+    color: var(--text-xl-color);
+
+    user-select: none;
+}
+
+#wrapper.unit .container .header .card .title {
+    width: auto;
+    height: auto;
+
+    font: var(--text-m-font);
+    color: var(--text-m-color);
+}
+
+#wrapper.unit .container .header .card .description {
+    font: var(--text-xs-font);
+    color: var(--text-xs-color);
+}
+
+#wrapper.unit .container .header > .description {
+    width: 480px;
+    height: auto;
+    margin: 0px 0px var(--space-m) 0px;
+
+    text-align: justify;
+
+    font: var(--text-xs-font);
+    color: var(--text-xs-color);
+}
+
+#wrapper.unit .container .list {
+    width: 720px;
+    height: auto;
+    margin: auto;
+    gap: var(--space-m);
+
+    overflow: auto;
+
+    flex: 1 1 0%;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#wrapper.unit .container .list .item {
+    width: 688px;
+    height: auto;
+    min-height: 80px;
+    padding: 16px;
+    border-radius: 16px;
+
+    flex: none;
+
+    background-color: var(--color-background);
+}
+
+#wrapper.unit .container .list .item .title {
+    width: auto;
+    height: auto;
+    margin: 0px 0px 4px 0px;
+
+    font: var(--text-m-font);
+    color: var(--text-m-color);
+}
+
+#wrapper.unit .container .list .item .description {
+    width: auto;
+    height: auto;
+
+    font: var(--text-xs-font);
+    color: var(--text-xs-color);
+}
+
+#wrapper.unit .container .footer {
+    width: auto;
+    height: 40px;
+    gap: var(--space-m);
+    padding: var(--space-m) 0px var(--space-m) 0px;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#wrapper.unit .container .footer .item {
+    width: auto;
+    height: auto;
+
+    font: var(--text-xs-font);
+    color: var(--text-xs-color);
+}

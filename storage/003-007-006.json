@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "Which mathematical rule allows the error to be propagated back through multiple layers?",
+        "options": [
+            "The chain rule.",
+            "Bayes' theorem.",
+            "The law of total probability.",
+            "The mean value theorem."
+        ],
+        "answer": "The chain rule."
+    }
+}

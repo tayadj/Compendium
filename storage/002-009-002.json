@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "What is the main risk of random undersampling?",
+        "options": [
+            "It can randomly eliminate samples that carry useful knowledge from the training data.",
+            "It significantly increases the total size of the dataset.",
+            "It creates synthetic samples that do not reflect real data.",
+            "It can only be applied to the minority class."
+        ],
+        "answer": "It can randomly eliminate samples that carry useful knowledge from the training data."
+    }
+}

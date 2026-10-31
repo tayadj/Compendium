@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "How does t-SNE build its low-dimensional embedding?",
+        "options": [
+            "By projecting the data onto the eigenvectors of the covariance matrix.",
+            "By averaging the values of the k closest points for each new data point.",
+            "By calculating similarities via a t-distribution and minimizing the divergence between the distributions of pairwise similarities in the low-dimensional space.",
+            "By fitting a multivariate normal distribution to each class."
+        ],
+        "answer": "By calculating similarities via a t-distribution and minimizing the divergence between the distributions of pairwise similarities in the low-dimensional space."
+    }
+}

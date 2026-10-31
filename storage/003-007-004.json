@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "What happens during backward propagation?",
+        "options": [
+            "The input is fed through the layers to produce a prediction.",
+            "The error computed by a loss function is propagated backward to update weights and biases, typically via gradient descent with the chain rule.",
+            "Activation functions are applied to the raw input.",
+            "The number of hidden layers is increased until the error disappears."
+        ],
+        "answer": "The error computed by a loss function is propagated backward to update weights and biases, typically via gradient descent with the chain rule."
+    }
+}

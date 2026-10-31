@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "How does KNN classify a new data point?",
+        "options": [
+            "It finds the hyperplane that maximizes the margin between the classes.",
+            "It applies Bayes' theorem assuming all features are conditionally independent.",
+            "It assigns the majority class among the k nearest neighbours of the new point.",
+            "It fits a multivariate normal distribution to each class and picks the closest one."
+        ],
+        "answer": "It assigns the majority class among the k nearest neighbours of the new point."
+    }
+}

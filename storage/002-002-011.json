@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "What does the Silhouette Score evaluate in clusterization problems?",
+        "options": [
+            "How similar instances are to each other within their clusters and how different they are across clusters",
+            "The expected and predicted clusters adjusted for randomness",
+            "The frequency of an itemset within the dataset",
+            "The harmonic mean of precision and recall"
+        ],
+        "answer": "How similar instances are to each other within their clusters and how different they are across clusters"
+    }
+}

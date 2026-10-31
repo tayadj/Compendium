@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "What is early stopping in iterative learning methods like gradient descent?",
+        "options": [
+            "Stopping training once the validation error begins to increase, even if the training error is still decreasing.",
+            "Stopping training as soon as the training error reaches zero.",
+            "Stopping training after a fixed number of iterations, regardless of performance.",
+            "Pausing training until more labeled data has been collected."
+        ],
+        "answer": "Stopping training once the validation error begins to increase, even if the training error is still decreasing."
+    }
+}

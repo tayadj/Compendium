@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "How do decision trees partition the feature space?",
+        "options": [
+            "Recursively, into smaller subsets based on significant features selected with splitting criteria.",
+            "Randomly, into two equal halves regardless of the features.",
+            "By projecting the data onto a lower-dimensional space with PCA.",
+            "By replicating minority-class samples until the classes are balanced."
+        ],
+        "answer": "Recursively, into smaller subsets based on significant features selected with splitting criteria."
+    }
+}

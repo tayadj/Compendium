@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "Which limitation of K-means is mentioned in the lesson?",
+        "options": [
+            "It cannot handle numerical features.",
+            "It is sensitive to the initial settings, and results can vary depending on them.",
+            "It always produces quadratic decision boundaries.",
+            "It requires every point to be labeled as core, border or noise."
+        ],
+        "answer": "It is sensitive to the initial settings, and results can vary depending on them."
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "What is internal covariate shift?",
+        "options": [
+            "The change of the input data distribution between training and deployment.",
+            "The drift of the learning rate during optimization.",
+            "The phenomenon where the distribution of layer inputs changes during training.",
+            "The rotation of weight matrices between consecutive layers."
+        ],
+        "answer": "The phenomenon where the distribution of layer inputs changes during training."
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "Which statement about the mathematical properties of the L1 and L2 penalties is correct?",
+        "options": [
+            "The L1-penalty is not differentiable at zero, while the L2-penalty is smooth and differentiable everywhere.",
+            "Both L1 and L2 penalties are non-differentiable at zero, so gradient descent cannot be used with either.",
+            "The L1-penalty is smooth and differentiable everywhere, while the L2-penalty has a sharp corner at zero.",
+            "Both penalties are differentiable everywhere, but only L1 supports gradient descent."
+        ],
+        "answer": "The L1-penalty is not differentiable at zero, while the L2-penalty is smooth and differentiable everywhere."
+    }
+}

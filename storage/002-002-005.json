@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "Why is the F-score calculated as the harmonic mean of precision and recall?",
+        "options": [
+            "Because the harmonic mean gives attention to the lower value, whether it is precision or recall",
+            "Because the harmonic mean always equals the larger of the two values",
+            "Because the harmonic mean completely ignores false negatives",
+            "Because the arithmetic mean cannot be computed for ratios"
+        ],
+        "answer": "Because the harmonic mean gives attention to the lower value, whether it is precision or recall"
+    }
+}

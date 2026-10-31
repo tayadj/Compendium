@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "What makes Naive Bayes classifiers \"naive\"?",
+        "options": [
+            "They ignore the class labels during training.",
+            "They assume all features are conditionally independent given the class label.",
+            "They can only be trained on Gaussian-distributed data.",
+            "They never output probabilities, only hard class assignments."
+        ],
+        "answer": "They assume all features are conditionally independent given the class label."
+    }
+}

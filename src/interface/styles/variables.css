@@ -1,0 +1,15 @@
+:root {
+    --space-m: 24px;
+    --space-xl: 96px;
+
+    --color-background: rgb(245, 245, 247);
+
+    --text-xs-font: 400 12px -apple-system;
+    --text-xs-color: rgba(0, 0, 0, 0.56);
+
+    --text-m-font: 600 14px -apple-system;
+    --text-m-color: rgba(0, 0, 0, 0.78);
+
+    --text-xl-font: 800 36px -apple-system;
+    --text-xl-color: rgba(0, 0, 0, 0.14);
+}

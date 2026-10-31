@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "What kind of data are convolutional neural networks designed to handle?",
+        "options": [
+            "Structured grid data, such as images.",
+            "Only raw text without any preprocessing.",
+            "Only audio waveforms.",
+            "Random unstructured numbers."
+        ],
+        "answer": "Structured grid data, such as images."
+    }
+}

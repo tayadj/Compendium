@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "Handling missing values, smoothing noisy data, and correcting inconsistencies belong to which aspect of feature engineering?",
+        "options": [
+            "Data cleaning and preprocessing",
+            "Feature construction",
+            "Feature extraction",
+            "Feature transformation"
+        ],
+        "answer": "Data cleaning and preprocessing"
+    }
+}

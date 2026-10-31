@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "What does logistic regression estimate?",
+        "options": [
+            "The probability of a binary outcome based on one or more independent variables.",
+            "The exact value of a continuous dependent variable.",
+            "The slope of a line without any independent variables.",
+            "The residual sum of squares between classes."
+        ],
+        "answer": "The probability of a binary outcome based on one or more independent variables."
+    }
+}

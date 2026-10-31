@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "Which statement best describes the difference between feature construction and feature extraction?",
+        "options": [
+            "Feature construction creates new features from existing ones using domain knowledge, while feature extraction automatically reduces dimensionality while retaining most of the information.",
+            "Feature construction uses PCA and t-SNE, while feature extraction uses encoding techniques.",
+            "Feature construction reduces dimensionality, while feature extraction adds new features.",
+            "There is no difference - both terms simply describe data cleaning."
+        ],
+        "answer": "Feature construction creates new features from existing ones using domain knowledge, while feature extraction automatically reduces dimensionality while retaining most of the information."
+    }
+}

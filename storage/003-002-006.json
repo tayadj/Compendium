@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "Which of the following is NOT a generative model?",
+        "options": [
+            "Naive Bayes",
+            "Generative Adversarial Networks",
+            "Support Vector Machines",
+            "Variational Autoencoders"
+        ],
+        "answer": "Support Vector Machines"
+    }
+}

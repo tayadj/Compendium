@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "What does the weight of a connection between two neurons indicate?",
+        "options": [
+            "The speed of data transfer between the two neurons.",
+            "The number of training examples the neuron has processed.",
+            "The depth of the layer that the neuron belongs to.",
+            "The importance of that connection."
+        ],
+        "answer": "The importance of that connection."
+    }
+}

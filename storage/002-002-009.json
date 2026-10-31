@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "Which property of Mean Squared Error makes it suitable for gradient descent optimization?",
+        "options": [
+            "It is mathematically smooth",
+            "It is insensitive to outliers",
+            "It is bounded between 0 and 1",
+            "It equals the dataset variance"
+        ],
+        "answer": "It is mathematically smooth"
+    }
+}

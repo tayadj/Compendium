@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "Why is L2-regularization (Ridge) often preferred in multicollinearity scenarios?",
+        "options": [
+            "It tends to spread the weight among correlated features rather than singling one out.",
+            "It eliminates all correlated features from the model.",
+            "It forces the coefficients of correlated features to be exactly zero.",
+            "It converts the problem into a classification task."
+        ],
+        "answer": "It tends to spread the weight among correlated features rather than singling one out."
+    }
+}

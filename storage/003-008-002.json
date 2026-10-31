@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "For which tasks are RNNs especially useful?",
+        "options": [
+            "Tasks where the spatial structure of images is crucial, like object detection.",
+            "Tasks where time dependencies are crucial, such as NLP, speech recognition and time series analysis.",
+            "Tasks that require no ordering of the input data at all.",
+            "Tasks with only a single input and no output."
+        ],
+        "answer": "Tasks where time dependencies are crucial, such as NLP, speech recognition and time series analysis."
+    }
+}

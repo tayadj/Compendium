@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "What does every neuron in a neural network compute?",
+        "options": [
+            "The average of its inputs, multiplied by the layer's learning rate.",
+            "A weighted sum of its inputs, plus a bias, passed through an activation function.",
+            "The maximum of its inputs, passed through a normalizer.",
+            "A weighted sum of its inputs, minus a bias, raised to the second power."
+        ],
+        "answer": "A weighted sum of its inputs, plus a bias, passed through an activation function."
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "What is feature engineering?",
+        "options": [
+            "The process of transforming raw data into meaningful, informative, and non-redundant features for machine learning algorithms.",
+            "The process of selecting the best machine learning algorithm for a given dataset.",
+            "The process of collecting more data from external sources to increase the dataset size.",
+            "The process of tuning model hyperparameters to improve prediction accuracy."
+        ],
+        "answer": "The process of transforming raw data into meaningful, informative, and non-redundant features for machine learning algorithms."
+    }
+}

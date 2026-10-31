@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "What is true about PCA's principal components?",
+        "options": [
+            "Each component captures exactly the same amount of variance.",
+            "They are correlated with each other to preserve more information.",
+            "The last component captures the most variance in the data.",
+            "They are orthogonal (uncorrelated), and the first component captures the most variance, followed by the second, third and so on."
+        ],
+        "answer": "They are orthogonal (uncorrelated), and the first component captures the most variance, followed by the second, third and so on."
+    }
+}

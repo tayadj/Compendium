@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "What may happen if the learning rate is too large?",
+        "options": [
+            "The algorithm may oscillate around the loss function minimum.",
+            "The convergence will necessarily become slower.",
+            "The gradients will vanish in the earlier layers.",
+            "The model will train faster without any side effects."
+        ],
+        "answer": "The algorithm may oscillate around the loss function minimum."
+    }
+}

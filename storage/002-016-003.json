@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "Which mathematical procedure does PCA rely on?",
+        "options": [
+            "Calculating pairwise distances between points and taking a majority vote.",
+            "Calculating eigenvalues and eigenvectors of the covariance matrix of the input data.",
+            "Minimizing the divergence between t-distributions of pairwise similarities.",
+            "Estimating a separate covariance matrix for each class."
+        ],
+        "answer": "Calculating eigenvalues and eigenvectors of the covariance matrix of the input data."
+    }
+}

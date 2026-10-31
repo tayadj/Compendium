@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "Which of the following are typical techniques used at the feature transformation stage?",
+        "options": [
+            "Normalization, standardization, log- or power-transformations, and encoding techniques",
+            "Combining existing features using domain knowledge",
+            "Reducing dimensionality with PCA and t-SNE",
+            "Splitting the dataset into training and test sets"
+        ],
+        "answer": "Normalization, standardization, log- or power-transformations, and encoding techniques"
+    }
+}

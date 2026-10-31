@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "A model performs well on training data but poorly on validation data. What does this indicate?",
+        "options": [
+            "High variance, the model is overfitting to the training data.",
+            "High bias, the model is underfitting.",
+            "High irreducible error caused by noise in the data.",
+            "The model has found the optimal bias-variance tradeoff."
+        ],
+        "answer": "High variance, the model is overfitting to the training data."
+    }
+}

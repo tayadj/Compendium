@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "Which algorithms and techniques are considered good choices for imbalanced datasets?",
+        "options": [
+            "Decision tree-based algorithms, as well as boosting and bagging techniques.",
+            "K-Means clustering and PCA.",
+            "Linear regression and logistic regression.",
+            "Q-Learning and SARSA."
+        ],
+        "answer": "Decision tree-based algorithms, as well as boosting and bagging techniques."
+    }
+}

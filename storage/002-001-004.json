@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "Which of the following is an unsupervised learning algorithm?",
+        "options": [
+            "Logistic regression",
+            "Decision trees",
+            "Principal component analysis",
+            "Deep Q-Learning"
+        ],
+        "answer": "Principal component analysis"
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "What is the curse of dimensionality?",
+        "options": [
+            "The phenomenon where machine learning algorithms deteriorate in performance as the number of features increases.",
+            "The phenomenon where machine learning algorithms improve in performance as the number of features increases.",
+            "The problem of running out of memory when working with very large datasets.",
+            "The tendency of a model to perform better on training data than on test data."
+        ],
+        "answer": "The phenomenon where machine learning algorithms deteriorate in performance as the number of features increases."
+    }
+}

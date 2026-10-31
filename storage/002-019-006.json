@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "How does the agent select actions in Q-Learning, and how are Q-coefficients updated?",
+        "options": [
+            "Actions are selected using an exploration–exploitation strategy, and after each action the Q-coefficients of the current state-action pair are updated using the Bellman equation.",
+            "Actions are selected randomly forever, and Q-coefficients are simply set to one.",
+            "Actions are selected only by the highest reward seen so far, and Q-coefficients come from a covariance matrix.",
+            "Actions are selected via a hash-tree, and Q-coefficients are pruned below a minimum support threshold."
+        ],
+        "answer": "Actions are selected using an exploration–exploitation strategy, and after each action the Q-coefficients of the current state-action pair are updated using the Bellman equation."
+    }
+}

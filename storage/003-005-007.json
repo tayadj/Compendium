@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "How does SHAP compute a feature's contribution (its Shapley value)?",
+        "options": [
+            "It evaluates the feature's impact across different combinations of features and averages over the possible feature contributions.",
+            "It takes the feature with the largest weight in the first layer.",
+            "It measures how strongly the feature correlates with the target variable.",
+            "It counts how many neurons the feature activates."
+        ],
+        "answer": "It evaluates the feature's impact across different combinations of features and averages over the possible feature contributions."
+    }
+}

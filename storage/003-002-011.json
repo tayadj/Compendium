@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "Which of the discriminative models listed in the lesson is a type of neural network?",
+        "options": [
+            "Linear Regression",
+            "Multilayer Perceptron",
+            "Logistic Regression",
+            "Support Vector Machines"
+        ],
+        "answer": "Multilayer Perceptron"
+    }
+}

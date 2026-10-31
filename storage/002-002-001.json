@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "Which classification metric is the ratio of correctly classified instances out of the total number of instances, and is NOT suitable for imbalanced datasets?",
+        "options": [
+            "Accuracy",
+            "Recall",
+            "F-score",
+            "ROC AUC"
+        ],
+        "answer": "Accuracy"
+    }
+}

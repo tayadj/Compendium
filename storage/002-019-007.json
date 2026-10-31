@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "When is Deep Q-Learning needed instead of classic Q-Learning?",
+        "options": [
+            "When the environment has very few states and actions.",
+            "When the reward signal is always positive.",
+            "When the state space is high-dimensional or continuous, so maintaining an explicit Q-table is impossible.",
+            "When the dataset is labeled and small."
+        ],
+        "answer": "When the state space is high-dimensional or continuous, so maintaining an explicit Q-table is impossible."
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "What is the effect of putting an additional penalty on the loss function for misclassifying the minority class?",
+        "options": [
+            "It forces the model to pay more attention to the minority class and try to make fewer mistakes on it.",
+            "It reduces the number of minority samples in the training dataset.",
+            "It automatically generates new synthetic samples of the minority class.",
+            "It makes the model completely ignore the majority class."
+        ],
+        "answer": "It forces the model to pay more attention to the minority class and try to make fewer mistakes on it."
+    }
+}

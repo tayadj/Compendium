@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "In association problems, what does support measure?",
+        "options": [
+            "How popular an itemset is, i.e. the frequency of the itemset within the dataset",
+            "The conditional probability of seeing the consequent given the antecedent",
+            "The increase of the probability of the consequent when the antecedent is present",
+            "How well the model explains the variance of the outcome"
+        ],
+        "answer": "How popular an itemset is, i.e. the frequency of the itemset within the dataset"
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "Which principle does the Apriori algorithm rely on?",
+        "options": [
+            "Any subset of a frequent itemset must also be frequent.",
+            "Items that appear together once will always appear together again.",
+            "Every item must appear in at least half of all transactions.",
+            "Support and confidence must always be equal to 1."
+        ],
+        "answer": "Any subset of a frequent itemset must also be frequent."
+    }
+}

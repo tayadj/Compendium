@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "Despite its unrealistic independence assumption, where does Naive Bayes perform particularly well?",
+        "options": [
+            "On tiny datasets with only two features.",
+            "On time series with strong seasonal trends.",
+            "On large, high-dimensional datasets such as text classification.",
+            "On problems that require maximizing the margin between classes."
+        ],
+        "answer": "On large, high-dimensional datasets such as text classification."
+    }
+}

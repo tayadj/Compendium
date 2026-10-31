@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "When is t-SNE typically preferred over PCA?",
+        "options": [
+            "For feature engineering and data preprocessing of large datasets.",
+            "When the model needs features that capture maximum variance.",
+            "When computational efficiency is the top priority.",
+            "For exploratory data analysis and visualizing high-dimensional clusters or manifolds in a low-dimensional space."
+        ],
+        "answer": "For exploratory data analysis and visualizing high-dimensional clusters or manifolds in a low-dimensional space."
+    }
+}

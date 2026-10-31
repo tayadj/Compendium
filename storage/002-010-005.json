@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "Why is K-fold cross-validation generally faster than leave-p-out cross-validation?",
+        "options": [
+            "Because the computational load grows linearly with the number of folds - there are as many training iterations as there are folds, while leave-p-out requires far more iterations.",
+            "Because K-fold uses a smaller part of the dataset for training.",
+            "Because leave-p-out requires retraining the model within each fold.",
+            "Because K-fold does not require the model to be validated at all."
+        ],
+        "answer": "Because the computational load grows linearly with the number of folds - there are as many training iterations as there are folds, while leave-p-out requires far more iterations."
+    }
+}

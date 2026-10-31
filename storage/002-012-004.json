@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "What characterizes boosting?",
+        "options": [
+            "Sequential training where each subsequent model corrects the errors of its predecessor, with higher weights assigned to misclassified instances.",
+            "Independent parallel training of models on bootstrap subsets.",
+            "Combining models by majority voting only.",
+            "Training a single very deep decision tree."
+        ],
+        "answer": "Sequential training where each subsequent model corrects the errors of its predecessor, with higher weights assigned to misclassified instances."
+    }
+}

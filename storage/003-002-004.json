@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "Which of the following is a discriminative model?",
+        "options": [
+            "Naive Bayes",
+            "Logistic Regression",
+            "Generative Adversarial Networks",
+            "Variational Autoencoders"
+        ],
+        "answer": "Logistic Regression"
+    }
+}

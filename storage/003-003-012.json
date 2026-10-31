@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "Which sequence best describes the transfer learning workflow from the lesson?",
+        "options": [
+            "Start from a pre-trained model trained on vast amounts of data, then fine-tune it on the new task's dataset.",
+            "Generate new samples → train from scratch → evaluate.",
+            "Fine-tune a random model → pre-train it on a small dataset → deploy.",
+            "Delete unused layers → retrain everything with a large dataset → start over for each task."
+        ],
+        "answer": "Start from a pre-trained model trained on vast amounts of data, then fine-tune it on the new task's dataset."
+    }
+}

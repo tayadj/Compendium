@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "What is a decision tree?",
+        "options": [
+            "A machine learning algorithm used for both classification and regression tasks, built as a hierarchical model of nodes, branches and leaves.",
+            "An optimization algorithm that minimizes the loss function by adjusting parameters along the gradient.",
+            "An ensemble method that combines several models by majority voting.",
+            "A method that models the relationship between independent variables and a continuous target using least squares."
+        ],
+        "answer": "A machine learning algorithm used for both classification and regression tasks, built as a hierarchical model of nodes, branches and leaves."
+    }
+}

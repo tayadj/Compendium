@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "What is Q-Learning?",
+        "options": [
+            "A supervised regression algorithm that fits a hyperplane to labeled states.",
+            "A model-free reinforcement learning strategy used to find the optimal policy for a finite Markov decision process.",
+            "An unsupervised technique that builds a dendrogram of states.",
+            "A probabilistic classifier based on Bayes' theorem."
+        ],
+        "answer": "A model-free reinforcement learning strategy used to find the optimal policy for a finite Markov decision process."
+    }
+}

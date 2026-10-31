@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "Which of the following helps mitigate vanishing gradients?",
+        "options": [
+            "Using ReLU activations or their variants, careful weight initialization, and residual connections.",
+            "Implementing gradient clipping.",
+            "Increasing the learning rate as much as possible.",
+            "Removing all activation functions from the network."
+        ],
+        "answer": "Using ReLU activations or their variants, careful weight initialization, and residual connections."
+    }
+}

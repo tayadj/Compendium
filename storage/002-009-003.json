@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "Why should the train-test split be applied before random oversampling?",
+        "options": [
+            "To avoid confusion in evaluation, so that replicated minority samples do not leak between the train and test sets.",
+            "Because oversampling requires a test set to generate synthetic data.",
+            "Because the train-test split balances the classes on its own.",
+            "Because oversampling can only be applied to the test set."
+        ],
+        "answer": "To avoid confusion in evaluation, so that replicated minority samples do not leak between the train and test sets."
+    }
+}

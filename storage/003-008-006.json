@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "What does the output gate in an LSTM do?",
+        "options": [
+            "Decides which new candidate information is written into the cell state.",
+            "Regulates what information from the cell state is exposed to the next time step as the next hidden state.",
+            "Combines retained past information with the new candidate.",
+            "Resets the cell state to zero at every time step."
+        ],
+        "answer": "Regulates what information from the cell state is exposed to the next time step as the next hidden state."
+    }
+}

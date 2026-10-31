@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "Which activation function converts a vector of raw scores (logits) into probabilities that sum to one?",
+        "options": [
+            "Sigmoid",
+            "tanh",
+            "Softmax",
+            "Leaky ReLU"
+        ],
+        "answer": "Softmax"
+    }
+}

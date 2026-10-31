@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "What do generative models attempt to model?",
+        "options": [
+            "The joint distribution of input and output - how the data is generated, including the structure of the inputs themselves.",
+            "Only the conditional probability of the output given the input.",
+            "A decision boundary that separates the classes as widely as possible.",
+            "The pairwise distances between individual training examples."
+        ],
+        "answer": "The joint distribution of input and output - how the data is generated, including the structure of the inputs themselves."
+    }
+}

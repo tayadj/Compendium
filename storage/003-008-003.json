@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "What is the vanishing gradient problem in RNNs?",
+        "options": [
+            "Gradients grow uncontrollably as they are propagated back through time steps.",
+            "Gradients shrink as they are propagated back through many time steps, making long-term learning difficult.",
+            "Gradients become exactly zero after the first time step.",
+            "The loss function becomes undefined for long sequences."
+        ],
+        "answer": "Gradients shrink as they are propagated back through many time steps, making long-term learning difficult."
+    }
+}

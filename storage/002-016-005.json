@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "What is the core idea behind t-SNE?",
+        "options": [
+            "Points that are far apart in high-dimensional space should stay far apart, while nearby points may end up separated.",
+            "Similar data points in high-dimensional space should be represented as nearby points in the low-dimensional space, and vice versa.",
+            "All variance in the data should be concentrated in the first component.",
+            "Every class should be represented by its own covariance matrix."
+        ],
+        "answer": "Similar data points in high-dimensional space should be represented as nearby points in the low-dimensional space, and vice versa."
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "What happens to distances between points as the number of dimensions increases?",
+        "options": [
+            "Distances between points tend to converge, making it difficult to distinguish between close and far away points.",
+            "Distances between points grow infinitely large, so no neighbors can ever be found.",
+            "Distances between points become exactly zero.",
+            "Distances become more diverse, which improves discrimination between close and far points."
+        ],
+        "answer": "Distances between points tend to converge, making it difficult to distinguish between close and far away points."
+    }
+}

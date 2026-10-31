@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "Which of the generative models from the lesson are built on neural networks?",
+        "options": [
+            "Naive Bayes and Gaussian Mixture Models",
+            "Logistic Regression and Support Vector Machines",
+            "Naive Bayes and Generative Adversarial Networks",
+            "Generative Adversarial Networks and Variational Autoencoders"
+        ],
+        "answer": "Generative Adversarial Networks and Variational Autoencoders"
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "Why does the Transformer train significantly faster than sequential models like RNN?",
+        "options": [
+            "Self-attention allows the model to process words in parallel.",
+            "It processes tokens one at a time through recurrence.",
+            "It requires no loss function.",
+            "It has fewer parameters than any RNN."
+        ],
+        "answer": "Self-attention allows the model to process words in parallel."
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "Why is Newton's method rarely used in practice for large models?",
+        "options": [
+            "It converges too slowly to be useful.",
+            "It cannot minimize non-convex loss functions.",
+            "Computing and inverting the Hessian is computationally expensive and requires a lot of resources.",
+            "It stops working when the gradient becomes very small."
+        ],
+        "answer": "Computing and inverting the Hessian is computationally expensive and requires a lot of resources."
+    }
+}

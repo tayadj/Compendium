@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "What is precision in a classification problem?",
+        "options": [
+            "The ratio of true positive predictions out of all actual positive instances",
+            "The ratio of true positive predictions out of all positive predictions",
+            "The ratio of correctly classified instances out of all instances",
+            "The harmonic mean of recall and accuracy"
+        ],
+        "answer": "The ratio of true positive predictions out of all positive predictions"
+    }
+}

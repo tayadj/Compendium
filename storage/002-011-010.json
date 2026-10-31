@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "Which technique is listed as a mitigation for both vanishing and exploding gradients?",
+        "options": [
+            "Careful weight initialization",
+            "Random oversampling",
+            "K-fold cross-validation",
+            "Log-transformation of the target variable"
+        ],
+        "answer": "Careful weight initialization"
+    }
+}

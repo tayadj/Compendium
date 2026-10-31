@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "Why do data points become increasingly sparse in high-dimensional spaces?",
+        "options": [
+            "The number of points required to maintain a given density grows exponentially with the number of dimensions.",
+            "The number of points required to maintain a given density grows linearly with the number of dimensions.",
+            "High dimensions cause data points to compress closer to each other.",
+            "Algorithms automatically discard redundant features in high dimensions."
+        ],
+        "answer": "The number of points required to maintain a given density grows exponentially with the number of dimensions."
+    }
+}

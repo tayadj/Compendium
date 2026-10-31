@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "How does group normalization work?",
+        "options": [
+            "It normalizes each output of the network separately after training.",
+            "It computes one shared statistic for the entire dataset.",
+            "It normalizes the raw input data before it enters the network.",
+            "It divides the channels of a layer into groups and computes normalization statistics within each group."
+        ],
+        "answer": "It divides the channels of a layer into groups and computes normalization statistics within each group."
+    }
+}

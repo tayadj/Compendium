@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "How does the K-means algorithm work?",
+        "options": [
+            "It merges the two closest clusters at each step until the desired number of clusters is reached.",
+            "It expands clusters around randomly selected points by recursively adding densely packed neighbours.",
+            "It iteratively assigns data points to the nearest centroid and updates each centroid based on the mean of the data points within the cluster.",
+            "It projects the data onto the eigenvectors of the covariance matrix."
+        ],
+        "answer": "It iteratively assigns data points to the nearest centroid and updates each centroid based on the mean of the data points within the cluster."
+    }
+}

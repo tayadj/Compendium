@@ -1,0 +1,93 @@
+#wrapper.lesson .container {
+    width: 960px;
+    height: 100vh;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column; 
+}
+
+#wrapper.lesson .container .action {
+    width: auto;
+    height: auto;
+    margin: var(--space-m) auto;
+
+    display: flex;
+    flex-direction: row;
+}
+
+#wrapper.lesson .container .action .left {
+    width: 32px;
+    height: 24px;
+    padding: 4px;
+    border-radius: 16px 0px 0px 16px;
+
+    text-align: center;
+
+    font: var(--text-xs-font);
+    color: var(--text-xs-color);
+
+    background-color: var(--color-background);
+}
+
+#wrapper.lesson .container .action .center  {
+    width: 64px;
+    height: 24px;
+    padding: 4px;
+
+    text-align: center;
+
+    font: var(--text-xs-font);
+    color: var(--text-xs-color);
+
+    background-color: var(--color-background);
+}
+
+#wrapper.lesson .container .action .right  {
+    width: 32px;
+    height: 24px;
+    padding: 4px;
+    border-radius: 0px 16px 16px 0px;
+
+    text-align: center;
+
+    font: var(--text-xs-font);
+    color: var(--text-xs-color);
+
+    background-color: var(--color-background);
+}
+
+#wrapper.lesson .container .content {
+    width: 688px;
+    height: auto;
+    padding: 16px;
+    margin: 0 auto;
+    border-radius: 24px;
+
+    flex-grow: 1;
+    overflow: auto;
+
+    font: var(--text-xs-font);
+    color: var(--text-xs-color);
+
+    background-color: var(--color-background);
+}
+
+#wrapper.lesson .container .footer {
+    width: auto;
+    height: 40px;
+    gap: var(--space-m);
+    padding: var(--space-m) 0px var(--space-m) 0px;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#wrapper.lesson .container .footer .item {
+    width: auto;
+    height: auto;
+
+    font: var(--text-xs-font);
+    color: var(--text-xs-color);
+}

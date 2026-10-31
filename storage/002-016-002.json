@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "What does PCA identify?",
+        "options": [
+            "The k nearest neighbours of each data point.",
+            "The hyperplane that maximizes the margin between classes.",
+            "The directions (principal components) that capture the maximum variance in the data.",
+            "The clusters of similar points in the low-dimensional space."
+        ],
+        "answer": "The directions (principal components) that capture the maximum variance in the data."
+    }
+}

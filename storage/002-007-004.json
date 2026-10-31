@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "Which algorithms are particularly affected by the loss of distance discriminatory power in high dimensions?",
+        "options": [
+            "K-Nearest Neighbors and clustering methods.",
+            "Only algorithms that work with text data.",
+            "Decision trees, since they split on every feature.",
+            "No algorithms are affected, since distances remain meaningful in any dimension."
+        ],
+        "answer": "K-Nearest Neighbors and clustering methods."
+    }
+}

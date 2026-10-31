@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "What does the self-attention mechanism allow the Transformer to do?",
+        "options": [
+            "Let each word attend to all other words in the sequence, with learned weights based on relevance, capturing long- and short-term dependencies.",
+            "Let each word attend only to the immediately preceding word.",
+            "Process one time step at a time while keeping hidden memory.",
+            "Compress the whole sequence into a single vector before reading it."
+        ],
+        "answer": "Let each word attend to all other words in the sequence, with learned weights based on relevance, capturing long- and short-term dependencies."
+    }
+}

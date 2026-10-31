@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "What is the main difference between batch, layer, group, and instance normalization?",
+        "options": [
+            "They differ in the activation functions they are compatible with.",
+            "They differ in how many epochs they require to converge.",
+            "They differ only in the order of layers they can be inserted into.",
+            "They differ in what the normalization statistics are computed over: across the mini-batch, per sample across features, within groups of channels, or per channel of each instance."
+        ],
+        "answer": "They differ in what the normalization statistics are computed over: across the mini-batch, per sample across features, within groups of channels, or per channel of each instance."
+    }
+}

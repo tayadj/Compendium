@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "Which trade-off is typical for stochastic gradient descent compared to batch gradient descent?",
+        "options": [
+            "It converges faster and is computationally more efficient, but exhibits more noise in the parameter updates.",
+            "It is slower but completely noise-free.",
+            "It updates the parameters more rarely, which reduces the number of iterations.",
+            "It avoids the need for a learning rate altogether."
+        ],
+        "answer": "It converges faster and is computationally more efficient, but exhibits more noise in the parameter updates."
+    }
+}

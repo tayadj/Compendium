@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "Which of the following are commonly used strategies to manage the bias-variance tradeoff?",
+        "options": [
+            "Regularization techniques, cross-validation, and ensemble methods.",
+            "Removing all noise from the data and training longer.",
+            "Using more simplistic models exclusively.",
+            "Avoiding validation data and relying only on training accuracy."
+        ],
+        "answer": "Regularization techniques, cross-validation, and ensemble methods."
+    }
+}

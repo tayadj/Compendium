@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "What is a neural network?",
+        "options": [
+            "A database that stores labeled examples for later retrieval.",
+            "A fixed set of hand-written rules that map inputs to outputs.",
+            "A model inspired by the human brain that consists of interconnected units working together to process information.",
+            "A statistical test that measures the similarity between two datasets."
+        ],
+        "answer": "A model inspired by the human brain that consists of interconnected units working together to process information."
+    }
+}

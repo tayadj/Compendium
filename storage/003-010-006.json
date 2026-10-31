@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "What does the self-attention mechanism operate on?",
+        "options": [
+            "Matrices of queries, keys and values and their weighted sum.",
+            "The eigenvalues of the input covariance matrix.",
+            "A stack of convolutional kernels over the sentence.",
+            "The Hessian of the loss function with respect to the tokens."
+        ],
+        "answer": "Matrices of queries, keys and values and their weighted sum."
+    }
+}

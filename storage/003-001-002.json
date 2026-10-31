@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "Which statement about the layers of a neural network is correct?",
+        "options": [
+            "The input layer receives raw data, hidden layers perform feature extraction and transformation, and the output layer produces the final prediction.",
+            "The input layer produces the final prediction, hidden layers receive raw data, and the output layer extracts features.",
+            "The input layer extracts features, hidden layers produce the final prediction, and the output layer receives raw data.",
+            "All three layers receive raw data and produce independent predictions, which are then averaged."
+        ],
+        "answer": "The input layer receives raw data, hidden layers perform feature extraction and transformation, and the output layer produces the final prediction."
+    }
+}

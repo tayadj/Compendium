@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "Which parameters are typically adjusted during fine-tuning?",
+        "options": [
+            "Only the number of neurons in the input layer.",
+            "The raw input data itself, to better fit the model.",
+            "The hardware settings of the training machine.",
+            "The weights of some of the model's layers, and sometimes hyperparameters."
+        ],
+        "answer": "The weights of some of the model's layers, and sometimes hyperparameters."
+    }
+}

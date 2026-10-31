@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "What is the goal of least squares estimation in linear regression?",
+        "options": [
+            "To find the parameter values that minimize the residual sum of squares.",
+            "To maximize the log-likelihood function.",
+            "To constrain the output to the range from 0 to 1.",
+            "To minimize the number of independent variables."
+        ],
+        "answer": "To find the parameter values that minimize the residual sum of squares."
+    }
+}

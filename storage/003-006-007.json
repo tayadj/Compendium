@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "In Adam, what do the first moment and the second moment of the gradients represent?",
+        "options": [
+            "First moment - a moving average of the gradients (as in Momentum); second moment - a moving average of the squared gradients (as in RMSProp).",
+            "First moment - a moving average of the squared gradients; second moment - a moving average of the gradients.",
+            "First moment - the Hessian; second moment - the gradient.",
+            "First moment - the learning rate; second moment - the batch size."
+        ],
+        "answer": "First moment - a moving average of the gradients (as in Momentum); second moment - a moving average of the squared gradients (as in RMSProp)."
+    }
+}

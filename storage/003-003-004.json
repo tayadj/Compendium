@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "What is a pre-trained model?",
+        "options": [
+            "A model that trains itself while running on the user's device.",
+            "A model with randomly initialized weights that has never seen data.",
+            "A model that only works on the exact dataset it was built for.",
+            "A pre-built model trained on a vast amount of data by experts, made to be reused."
+        ],
+        "answer": "A pre-built model trained on a vast amount of data by experts, made to be reused."
+    }
+}

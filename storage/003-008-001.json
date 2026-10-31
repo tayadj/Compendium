@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "What is the main difference between an RNN and a feedforward neural network?",
+        "options": [
+            "RNNs have loop-back connections that maintain internal memory, while FNNs process data in one direction.",
+            "RNNs process all inputs in parallel, while FNNs process them sequentially.",
+            "RNNs use convolutional filters, while FNNs use attention.",
+            "RNNs cannot be applied to sequential data, while FNNs can."
+        ],
+        "answer": "RNNs have loop-back connections that maintain internal memory, while FNNs process data in one direction."
+    }
+}

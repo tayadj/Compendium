@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "Which forms can positional encoding take?",
+        "options": [
+            "Sine and cosine functions or learned embeddings.",
+            "Random noise added to the word embeddings.",
+            "One-hot vectors of the sentence length only.",
+            "Hash values of the words."
+        ],
+        "answer": "Sine and cosine functions or learned embeddings."
+    }
+}

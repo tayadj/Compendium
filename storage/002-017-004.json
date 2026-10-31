@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "What does hierarchical clustering produce?",
+        "options": [
+            "A set of K centroids around which the data is partitioned.",
+            "A low-dimensional embedding where similar points stay close together.",
+            "A list of core, border and noise points.",
+            "A dendrogram - a tree-like hierarchy of clusters built by recursively merging or splitting them based on their similarity."
+        ],
+        "answer": "A dendrogram - a tree-like hierarchy of clusters built by recursively merging or splitting them based on their similarity."
+    }
+}

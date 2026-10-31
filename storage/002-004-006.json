@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "Which of the following correctly pairs a problem with an appropriate prevention technique?",
+        "options": [
+            "Overfitting - increase the regularization parameter as much as possible.",
+            "Underfitting - reduce the number of features and simplify the model.",
+            "Overfitting - use K-fold cross-validation to better estimate generalization ability.",
+            "Underfitting - stop training as soon as the validation error starts to rise."
+        ],
+        "answer": "Overfitting - use K-fold cross-validation to better estimate generalization ability."
+    }
+}

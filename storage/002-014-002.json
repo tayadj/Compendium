@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "In a decision tree, what does a leaf represent?",
+        "options": [
+            "The final decision or prediction.",
+            "A decision based on the input.",
+            "The outcome of a decision made at a node.",
+            "The measure of impurity at the root node."
+        ],
+        "answer": "The final decision or prediction."
+    }
+}

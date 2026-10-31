@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "What is Elastic Net regularization?",
+        "options": [
+            "A weighted linear combination of the L1- and L2-penalty terms, combining their properties.",
+            "A technique that alternates between L1 and L2 penalties at each training epoch.",
+            "A special case of L2-regularization with a fixed hyperparameter of 1.",
+            "A method that applies L1 to numerical features and L2 to categorical features."
+        ],
+        "answer": "A weighted linear combination of the L1- and L2-penalty terms, combining their properties."
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "What is the purpose of the activation function applied by neurons in the hidden layers?",
+        "options": [
+            "To introduce non-linearity into the network.",
+            "To reduce the dimensionality of the hidden layers.",
+            "To store previous context between time steps.",
+            "To compute the loss between the prediction and the target."
+        ],
+        "answer": "To introduce non-linearity into the network."
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "What is transfer learning?",
+        "options": [
+            "Training a model from scratch on a brand-new task with a large labeled dataset.",
+            "Applying the knowledge gained from training a model on one task to a different but related task.",
+            "Combining several independently trained models into a single ensemble.",
+            "Automatically generating labeled data for tasks where labels are missing."
+        ],
+        "answer": "Applying the knowledge gained from training a model on one task to a different but related task."
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "Which activation function outputs values between -1 and 1 and typically converges faster than sigmoid because its output is zero-centered?",
+        "options": [
+            "Hyperbolic Tangent (tanh)",
+            "Sigmoid",
+            "ReLU",
+            "Softmax"
+        ],
+        "answer": "Hyperbolic Tangent (tanh)"
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "What does association learning do?",
+        "options": [
+            "It is a supervised technique that predicts a continuous target from labeled examples.",
+            "It is an unsupervised technique that discovers relationships hidden in large datasets by analyzing the co-occurrence of items.",
+            "It is a reinforcement technique where an agent learns to maximize long-term rewards.",
+            "It reduces the number of features in a dataset while preserving as much information as possible."
+        ],
+        "answer": "It is an unsupervised technique that discovers relationships hidden in large datasets by analyzing the co-occurrence of items."
+    }
+}

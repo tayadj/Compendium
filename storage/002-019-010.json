@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "How does SARSA update its Q-values, and what policy does this typically produce?",
+        "options": [
+            "It updates based on the actual action chosen from the next state instead of the maximum over all possible actions, which often results in a more conservative policy that accounts for the cost of exploring when there might be risks.",
+            "It updates based on the maximum Q-value over all possible next actions, producing the most aggressive possible policy.",
+            "It updates Q-values only at the end of the session, producing no policy until then.",
+            "It replaces Q-values with confidence and lift scores, producing association rules instead of a policy."
+        ],
+        "answer": "It updates based on the actual action chosen from the next state instead of the maximum over all possible actions, which often results in a more conservative policy that accounts for the cost of exploring when there might be risks."
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "How does hierarchical clustering begin, and how does it proceed?",
+        "options": [
+            "It starts from K random centroids and refines them until convergence.",
+            "It starts by treating each data point as a separate cluster, then iteratively merges the closest clusters based on a chosen distance metric such as Euclidean or Manhattan.",
+            "It starts with one big cluster and splits it randomly until each point stands alone.",
+            "It starts by selecting a random point and expanding a cluster around it via a t-distribution."
+        ],
+        "answer": "It starts by treating each data point as a separate cluster, then iteratively merges the closest clusters based on a chosen distance metric such as Euclidean or Manhattan."
+    }
+}

@@ -1,0 +1,7 @@
+@import "./styles/variables.css";
+@import "./styles/global.css";
+
+@import "./styles/views/main.css";
+@import "./styles/views/unit.css";
+@import "./styles/views/lesson.css";
+@import "./styles/views/task.css";

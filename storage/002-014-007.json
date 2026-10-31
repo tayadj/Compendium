@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "What is the entropy of a node that contains only one class (a completely pure node)?",
+        "options": [
+            "0",
+            "1",
+            "0.5",
+            "It depends on the number of features."
+        ],
+        "answer": "0"
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "What extra information does Newton's method use compared to plain gradient descent?",
+        "options": [
+            "The Hessian matrix of second derivatives, used to adapt the update step to curvature.",
+            "A moving average of past gradients accumulated as a velocity.",
+            "An exponential moving average of squared gradients for each parameter.",
+            "A separate loss function for each model parameter."
+        ],
+        "answer": "The Hessian matrix of second derivatives, used to adapt the update step to curvature."
+    }
+}

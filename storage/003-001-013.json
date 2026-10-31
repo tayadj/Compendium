@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "Which of these is a neural network architecture from the lesson?",
+        "options": [
+            "Support vector network",
+            "K-means network",
+            "Random forest network",
+            "Feedforward neural network"
+        ],
+        "answer": "Feedforward neural network"
+    }
+}

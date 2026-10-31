@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "How does a random forest make its final prediction?",
+        "options": [
+            "It combines multiple decision trees and aggregates their predictions.",
+            "It fits one decision tree to the residual errors of another.",
+            "It averages the weights of several logistic regressions.",
+            "It uses gradient descent to optimize the depth of a single tree."
+        ],
+        "answer": "It combines multiple decision trees and aggregates their predictions."
+    }
+}

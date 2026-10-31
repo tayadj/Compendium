@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "Which statement about labels in machine learning is true?",
+        "options": [
+            "Supervised learning requires labeled data, while unsupervised learning works with unlabeled data.",
+            "All three types of machine learning require labeled data.",
+            "Only reinforcement learning requires labeled data.",
+            "Labels are used exclusively in clustering algorithms."
+        ],
+        "answer": "Supervised learning requires labeled data, while unsupervised learning works with unlabeled data."
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "What drives the learning process in reinforcement learning?",
+        "options": [
+            "A fully labeled dataset with input-output pairs",
+            "Rewards and penalties received by the agent while interacting with an environment",
+            "Automatically discovered clusters of similar data points",
+            "Manually selected features with no target variable"
+        ],
+        "answer": "Rewards and penalties received by the agent while interacting with an environment"
+    }
+}

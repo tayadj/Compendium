@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "A data scientist creates a new feature called 'days since last purchase' by combining several existing columns. Which aspect of feature engineering does this illustrate?",
+        "options": [
+            "Feature construction",
+            "Data cleaning and preprocessing",
+            "Feature extraction",
+            "Feature transformation"
+        ],
+        "answer": "Feature construction"
+    }
+}

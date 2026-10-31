@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "In the epsilon-greedy algorithm, what does a higher epsilon value mean?",
+        "options": [
+            "More exploration - the agent selects random actions more often.",
+            "More exploitation - the agent selects the best known action more often.",
+            "The agent learns faster because rewards are larger.",
+            "The agent stops learning and repeats a fixed action forever."
+        ],
+        "answer": "More exploration - the agent selects random actions more often."
+    }
+}

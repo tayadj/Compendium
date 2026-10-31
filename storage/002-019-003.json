@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "What is a reward (R) in reinforcement learning?",
+        "options": [
+            "A numerical signal that indicates the immediate benefit (or cost) of an action.",
+            "A labeled target value attached to each training example.",
+            "The autonomous entity that selects actions based on its current state.",
+            "The world with which the agent interacts."
+        ],
+        "answer": "A numerical signal that indicates the immediate benefit (or cost) of an action."
+    }
+}

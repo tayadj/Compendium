@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "Which of the following are typical CNN applications in computer vision?",
+        "options": [
+            "Object recognition, image segmentation and image classification.",
+            "Speech-to-text dictation and audio denoising.",
+            "Reinforcement learning game playing.",
+            "Database indexing and query optimization."
+        ],
+        "answer": "Object recognition, image segmentation and image classification."
+    }
+}

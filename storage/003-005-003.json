@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "What kind of interpretability does LIME provide?",
+        "options": [
+            "Local interpretability - it explains individual predictions.",
+            "Global interpretability - it explains the whole model at once.",
+            "Both local and global interpretability.",
+            "It provides no interpretation - it only visualizes the training data."
+        ],
+        "answer": "Local interpretability - it explains individual predictions."
+    }
+}

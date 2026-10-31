@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "How do regularization methods like L1, L2, or Elastic Net help prevent overfitting?",
+        "options": [
+            "They add a penalty to the loss function to discourage overly complex models.",
+            "They increase the number of features available to the model.",
+            "They automatically stop training when validation error increases.",
+            "They remove all noise from the training data before training begins."
+        ],
+        "answer": "They add a penalty to the loss function to discourage overly complex models."
+    }
+}

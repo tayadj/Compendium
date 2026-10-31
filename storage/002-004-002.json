@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "High variance and high bias are evidence of which problems, respectively?",
+        "options": [
+            "High variance indicates underfitting; high bias indicates overfitting.",
+            "High variance indicates overfitting; high bias indicates underfitting.",
+            "Both indicate overfitting.",
+            "Both indicate underfitting."
+        ],
+        "answer": "High variance indicates overfitting; high bias indicates underfitting."
+    }
+}

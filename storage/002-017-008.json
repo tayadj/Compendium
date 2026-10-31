@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "Which clustering algorithm can explicitly label points that belong to no cluster, and what are such points called?",
+        "options": [
+            "K-means - leftover points are called centroids.",
+            "Hierarchical clustering - leftover points are called leaves of the dendrogram.",
+            "K-means - leftover points are called border points.",
+            "DBSCAN - points that are neither core nor border points are called noise points."
+        ],
+        "answer": "DBSCAN - points that are neither core nor border points are called noise points."
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "What mathematical concept is SHAP based on?",
+        "options": [
+            "Fourier analysis",
+            "Bayesian inference",
+            "Markov decision processes",
+            "Shapley values from cooperative game theory"
+        ],
+        "answer": "Shapley values from cooperative game theory"
+    }
+}

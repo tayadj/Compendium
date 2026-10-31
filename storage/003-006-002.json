@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "What is the Hessian, used by Newton's method?",
+        "options": [
+            "A vector of first derivatives of the loss function.",
+            "A matrix of second derivatives of the loss function.",
+            "A moving average of past parameter updates.",
+            "A matrix that stores the best parameters seen so far."
+        ],
+        "answer": "A matrix of second derivatives of the loss function."
+    }
+}

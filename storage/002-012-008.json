@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "How do gradient boosting machines build their models?",
+        "options": [
+            "Sequentially, by fitting each new model to the residual errors of the previous one - essentially gradient descent in function space.",
+            "In parallel, on independent bootstrap subsets of the data.",
+            "By majority voting among pre-trained decision trees.",
+            "By averaging the predictions of randomly initialized networks."
+        ],
+        "answer": "Sequentially, by fitting each new model to the residual errors of the previous one - essentially gradient descent in function space."
+    }
+}

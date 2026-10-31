@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "What is the primary objective of a Support Vector Machine?",
+        "options": [
+            "To average the values of the k closest training points.",
+            "To assume that all features are conditionally independent given the class.",
+            "To assign each class its own covariance matrix.",
+            "To find the hyperplane that separates the classes while maximizing the margin between them."
+        ],
+        "answer": "To find the hyperplane that separates the classes while maximizing the margin between them."
+    }
+}

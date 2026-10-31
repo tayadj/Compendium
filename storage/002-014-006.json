@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "What does entropy measure in the context of decision trees?",
+        "options": [
+            "The uncertainty or disorder of the data at a node.",
+            "The probability of misclassification when randomly labeling an element.",
+            "The reduction of impurity achieved by a split.",
+            "The number of leaves in the tree."
+        ],
+        "answer": "The uncertainty or disorder of the data at a node."
+    }
+}

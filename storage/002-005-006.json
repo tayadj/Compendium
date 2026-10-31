@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "What does the overall error of a predictive model consist of?",
+        "options": [
+            "Squared bias, variance, and irreducible error (noise).",
+            "Only bias and variance.",
+            "Only irreducible error and training time.",
+            "Bias, variance, and the number of features in the dataset."
+        ],
+        "answer": "Squared bias, variance, and irreducible error (noise)."
+    }
+}

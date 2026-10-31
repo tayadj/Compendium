@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "Which two assumptions does Linear Discriminant Analysis make?",
+        "options": [
+            "Each class has its own covariance matrix and the decision boundary is quadratic.",
+            "The margin between classes must be maximal and kernels must be polynomial.",
+            "All features must be conditionally independent and the data must be textual.",
+            "Every class follows a multivariate normal distribution and all classes share a common covariance matrix."
+        ],
+        "answer": "Every class follows a multivariate normal distribution and all classes share a common covariance matrix."
+    }
+}

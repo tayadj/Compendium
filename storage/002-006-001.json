@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "What does exploitation mean in the explore-exploit tradeoff?",
+        "options": [
+            "Choosing the best option based on the current knowledge.",
+            "Trying out new random options to discover potentially better outcomes.",
+            "Ignoring all previous experience and starting from scratch each time.",
+            "Training a model on a large labeled dataset."
+        ],
+        "answer": "Choosing the best option based on the current knowledge."
+    }
+}

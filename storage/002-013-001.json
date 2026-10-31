@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "What does linear regression model?",
+        "options": [
+            "The relationship between one or more independent variables and a continuous dependent variable.",
+            "The probability of a binary outcome based on independent variables.",
+            "The hidden clusters within unlabeled data.",
+            "The residual sum of squares of a logistic model."
+        ],
+        "answer": "The relationship between one or more independent variables and a continuous dependent variable."
+    }
+}

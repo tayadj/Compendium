@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "A dataset has 100,000 majority-class samples and only 500 minority-class samples, and training data is abundant. Which technique balances the classes by randomly removing majority-class samples?",
+        "options": [
+            "Random undersampling",
+            "Random oversampling",
+            "SMOTE",
+            "Loss function penalization"
+        ],
+        "answer": "Random undersampling"
+    }
+}

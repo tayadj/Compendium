@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "What does a high information gain indicate?",
+        "options": [
+            "The split has effectively separated the data into distinct classes.",
+            "The node was already completely pure before the split.",
+            "The tree has reached its maximum depth.",
+            "The features are highly correlated with each other."
+        ],
+        "answer": "The split has effectively separated the data into distinct classes."
+    }
+}

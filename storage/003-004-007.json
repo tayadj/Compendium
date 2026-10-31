@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "Why is layer normalization well suited for sequential models such as RNNs and Transformers?",
+        "options": [
+            "Because it normalizes across the mini-batch, which RNNs require.",
+            "Because it works only with text data.",
+            "Because it is independent of the batch size.",
+            "Because it removes the need for recurrent connections."
+        ],
+        "answer": "Because it is independent of the batch size."
+    }
+}

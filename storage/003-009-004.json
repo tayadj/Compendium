@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "What do fully connected layers do in a CNN?",
+        "options": [
+            "Apply filters to capture local borders.",
+            "Perform pooling over the feature maps.",
+            "Combine the extracted features and generate the outputs.",
+            "Remove unimportant neurons from the network."
+        ],
+        "answer": "Combine the extracted features and generate the outputs."
+    }
+}

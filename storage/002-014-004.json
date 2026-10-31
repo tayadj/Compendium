@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "When does the recursive splitting of a decision tree stop?",
+        "options": [
+            "When a stopping criterion is met.",
+            "After exactly one split at the root node.",
+            "When all features have zero variance.",
+            "When entropy reaches its maximum possible value."
+        ],
+        "answer": "When a stopping criterion is met."
+    }
+}

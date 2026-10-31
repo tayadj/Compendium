@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "What does LIME stand for?",
+        "options": [
+            "Local Importance Model Evaluation",
+            "Linear Interpretation of Model Estimates",
+            "Local Interpretable Model-agnostic Explanations",
+            "Layer-wise Importance of Model Explanations"
+        ],
+        "answer": "Local Interpretable Model-agnostic Explanations"
+    }
+}

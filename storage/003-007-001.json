@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "What is the hallmark of a feedforward neural network?",
+        "options": [
+            "Information flows in one direction through the layers, without cycles or feedback loops.",
+            "Information can loop back from later layers to earlier ones to keep context.",
+            "The network processes data one time step at a time using internal memory.",
+            "The network uses attention heads to relate every input to every other input."
+        ],
+        "answer": "Information flows in one direction through the layers, without cycles or feedback loops."
+    }
+}

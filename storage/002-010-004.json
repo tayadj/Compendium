@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "Leave-one-out cross-validation is a special case of leave-p-out. What is its defining property?",
+        "options": [
+            "Each fold is the size of one sample (p = 1), so the model is validated on every sample separately.",
+            "Only one fold is used for training, while all the rest are used for validation.",
+            "The validation set always contains exactly one class.",
+            "The dataset is split into exactly one training set and one test set."
+        ],
+        "answer": "Each fold is the size of one sample (p = 1), so the model is validated on every sample separately."
+    }
+}

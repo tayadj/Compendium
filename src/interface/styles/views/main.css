@@ -1,0 +1,141 @@
+#wrapper.main .container {
+    width: 900px;
+    height: 100vh;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column; 
+}
+
+#wrapper.main .container .carousel {
+    width: auto;
+    height: auto;
+    gap: var(--space-m);
+    margin: var(--space-m);
+
+    display: flex;
+    flex-direction: row;
+
+    overflow-x: auto;
+    scroll-behavior: smooth;
+}
+
+#wrapper.main .container .carousel .item {
+    width: 160px;
+    height: 160px;
+    border-radius: 24px;
+
+    flex-shrink: 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background-color: var(--color-background);
+}
+
+#wrapper.main .container .carousel .item .icon {
+    width: 64px;
+    height: 64px;
+    margin: 16px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font: var(--text-xl-font);
+    color: var(--text-xl-color);
+}
+
+#wrapper.main .container .carousel .item .title {
+    font: var(--text-m-font);
+    color: var(--text-m-color);
+}
+
+#wrapper.main .container .carousel .item .description {
+    font: var(--text-xs-font);
+    color: var(--text-xs-color);
+}
+
+#wrapper.main .container .agent {
+    width: auto;
+    height: auto;
+
+    flex-grow: 1;
+}
+
+#wrapper.main .container .agent .chat {
+    width: 640px;
+    height: auto;
+    gap: var(--space-m);
+    margin: 0 auto;
+
+    display: flex;
+    align-items: center;
+}
+
+#wrapper.main .container .agent .chat .input {
+    height: 48px;
+    padding: 0 16px;
+    border-radius: 24px;
+    border: none; 
+
+    flex: 1; 
+
+    background-color: var(--color-background);
+    
+    font: var(--text-xs-font);
+    color: var(--text-xs-color);
+}
+
+#wrapper.main .container .agent .chat .submit {
+    width: 48px;
+    height: 48px;
+    padding: 0 16px;
+    border-radius: 24px;
+    border: none; 
+
+    flex: 0 0 48px;
+
+    background-color: var(--color-background);
+
+    font: var(--text-xs-font);
+    color: var(--text-xs-color);
+}
+
+#wrapper.main .container .agent .output {
+    width: 640px;
+    height: auto;
+    max-height: 480px;
+    padding: var(--space-m);
+    margin: var(--space-m) auto 0px auto;
+    border-radius: 24px;
+
+    overflow: auto;
+    visibility: hidden;
+
+    background-color: var(--color-background);
+    
+    font: var(--text-xs-font);
+    color: var(--text-xs-color);
+}
+
+#wrapper.main .container .footer {
+    width: auto;
+    height: 40px;
+    gap: var(--space-m);
+    padding: var(--space-m) 0px var(--space-m) 0px;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#wrapper.main .container .footer .item {
+    width: auto;
+    height: auto;
+
+    font: var(--text-xs-font);
+    color: var(--text-xs-color);
+}

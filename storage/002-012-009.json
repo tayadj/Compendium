@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "How do voting models aggregate the predictions of the combined models?",
+        "options": [
+            "Majority voting for classification and averaging for regression.",
+            "Majority voting for regression and averaging for classification.",
+            "Taking the maximum prediction across all models.",
+            "Multiplying the predictions of all models."
+        ],
+        "answer": "Majority voting for classification and averaging for regression."
+    }
+}

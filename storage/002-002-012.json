@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "What does the Adjusted Rand Index do?",
+        "options": [
+            "Evaluates expected and predicted clusters adjusting for randomness",
+            "Measures the conditional probability of the consequent given the antecedent",
+            "Plots the true positive rate against the false positive rate",
+            "Sums the squared discrepancies between actual and predicted values"
+        ],
+        "answer": "Evaluates expected and predicted clusters adjusting for randomness"
+    }
+}

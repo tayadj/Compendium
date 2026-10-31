@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "How are sentences or documents represented when applying CNNs to NLP?",
+        "options": [
+            "As matrices, where each row corresponds to a token represented as a dense vector (embedding), and filters capture local patterns like n-grams.",
+            "As graphs, where each node is a sentence and edges are grammar rules.",
+            "As audio spectrograms of the spoken sentences.",
+            "As one-hot vectors of the whole vocabulary for the entire document at once."
+        ],
+        "answer": "As matrices, where each row corresponds to a token represented as a dense vector (embedding), and filters capture local patterns like n-grams."
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "What is the main purpose of regularization in machine learning?",
+        "options": [
+            "To prevent overfitting by penalizing large parameter values and simplifying the model.",
+            "To speed up model training by reducing the amount of training data.",
+            "To increase model complexity so it can memorize the training data better.",
+            "To convert an unsupervised problem into a supervised one."
+        ],
+        "answer": "To prevent overfitting by penalizing large parameter values and simplifying the model."
+    }
+}

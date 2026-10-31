@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "How does FP-Growth differ from Apriori?",
+        "options": [
+            "It uses a vertical data format and intersects transaction ID lists.",
+            "It evaluates rules using confidence and lift, unlike Apriori.",
+            "It generates more candidate itemsets through extra passes over the data.",
+            "Instead of generating candidate itemsets through multiple passes over the data, it uses a divide-and-conquer strategy and a frequent-pattern tree structure."
+        ],
+        "answer": "Instead of generating candidate itemsets through multiple passes over the data, it uses a divide-and-conquer strategy and a frequent-pattern tree structure."
+    }
+}

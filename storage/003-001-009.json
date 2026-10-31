@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "What does the ReLU function return when its input is negative?",
+        "options": [
+            "The input value, unchanged",
+            "A small non-zero gradient",
+            "A probability between 0 and 1",
+            "Zero"
+        ],
+        "answer": "Zero"
+    }
+}
