@@ -9,13 +9,11 @@ export function viewTask() {
     page.className = "container";
     page.innerHTML = `
         <div class = "action">
-            <div class = "left"><-</div>
-            <div class = "center">New Task</div>
-            <div class = "right">-></div>
+            <button class = "top interactive">Next</button>
         </div>
         <div class = "content"></div>
         <div class = "action">
-            <button class = "bottom" type = "submit" form = "submission" disabled>Submit</button>
+            <button class = "bottom interactive" type = "submit" form = "submission" disabled>Submit</button>
         </div>
         <div class = "fill"></div>
         <div class = "footer">
@@ -32,7 +30,7 @@ async function load(page) {
     const id = document.querySelector("#wrapper").dataset.view;
 
     const content = page.querySelector(".content");
-    const action = page.querySelector(".center");
+    const next = page.querySelector(".top");
     const submit = page.querySelector(".bottom");
 
     try {
@@ -44,7 +42,7 @@ async function load(page) {
         if (!result.ok) { throw new Error(`HTTP ${result.status}`); }
         const data = await result.json();
 
-        action.addEventListener("click", () => {
+        next.addEventListener("click", () => {
             location.hash = `task-${id.slice(0, 7)}-${String(Math.floor(Math.random() * data[id].size) + 1).padStart(3, '0')}`;
         })
 

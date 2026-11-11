@@ -12,7 +12,7 @@ export function viewMain() {
         <div class = "agent">
             <div class = "chat">
                 <input class = "input"></input>
-                <button class = "submit">-></button>
+                <button class = "submit interactive">-></button>
             </div>
             <div class = "output"></div>
         </div>
@@ -44,7 +44,7 @@ async function load(page) {
         carousel.innerHTML = ``;
         for (const [key, value] of Object.entries(data)) {
             const item = document.createElement("div");
-            item.className = "item";
+            item.className = "item interactive";
             item.dataset.navigation = key;
             item.innerHTML = `
                 <div class = "icon">${value.icon}</div>

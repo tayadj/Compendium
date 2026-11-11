@@ -47,7 +47,7 @@ async function load(page) {
 
         for (const [key, value] of Object.entries(data)) {
             const item = document.createElement("div");
-            item.className = "item";
+            item.className = "item interactive";
             item.dataset.navigation = key;
             item.innerHTML = `
                 <div class = "title">${value.title}</div>

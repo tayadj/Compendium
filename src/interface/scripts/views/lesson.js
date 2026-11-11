@@ -9,9 +9,7 @@ export function viewLesson() {
     page.className = "container";
     page.innerHTML = `
         <div class = "action">
-            <div class = "left"><-</div>
-            <div class = "center">Train</div>
-            <div class = "right">-></div>
+            <button class = "top interactive">Practice</button>
         </div>
         <div class = "content"></div>
         <div class = "footer">
@@ -28,7 +26,7 @@ async function load(page) {
     const id = document.querySelector("#wrapper").dataset.view;
 
     const content = page.querySelector(".content");
-    const action = page.querySelector(".center");
+    const practice = page.querySelector(".top");
 
     try {
         const result = await fetch(
@@ -42,7 +40,7 @@ async function load(page) {
         content.innerHTML = `
             ${transform(data[id].content)}
         `;
-        action.addEventListener("click", () => {
+        practice.addEventListener("click", () => {
             location.hash = `task-${id.slice(0, 7)}-${String(Math.floor(Math.random() * data[id].size) + 1).padStart(3, '0')}`;
         })
     } catch (error) {
