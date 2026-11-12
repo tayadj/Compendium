@@ -13,7 +13,7 @@ export function viewTask() {
         </div>
         <div class = "content"></div>
         <div class = "action">
-            <button class = "bottom interactive" type = "submit" form = "submission" disabled>Submit</button>
+            <button class = "bottom interactive" type = "submit" disabled>Submit</button>
         </div>
         <div class = "fill"></div>
         <div class = "footer">
@@ -47,10 +47,10 @@ async function load(page) {
         })
 
         switch (data[id].type) {
-            case "choice":
+            case "choice": {
                 const { question, options, answer } = data[id].content;
                 content.innerHTML = `
-                    <form class = "form" id = "submission">
+                    <form class = "form" id = "choice">
                         <div class = "question">${question}</div>
                         <div class = "options">
                             ${[...options].sort(() => Math.random() - 0.5).map((option) => `
@@ -64,6 +64,7 @@ async function load(page) {
                     </form>
                 `;
                 const form = content.querySelector(".form");
+                submit.setAttribute("form", form.id);
                 form.addEventListener("change", () => {
                     form.querySelectorAll(".option").forEach((option) => {
                         option.classList.remove("correct", "incorrect");
@@ -81,13 +82,69 @@ async function load(page) {
                     });
                 });
                 return;
+            }
 
-            default:
+            case "essay": {
+                const { question, answer } = data[id].content;
+                content.innerHTML = `
+                    <form class = "form" id = "essay">
+                        <div class = "question">${question}</div>
+                        <textarea class = "input" name = "input" rows = "6" placeholder = "Type your answer..." required></textarea>
+                        <div class = "explanation" hidden></div>
+                    </form>
+                `;
+                const form = content.querySelector(".form");
+                const input = form.querySelector(".input");
+                const explanation = form.querySelector(".explanation");
+                submit.setAttribute("form", form.id);
+                form.addEventListener("input", () => {
+                    input.classList.remove("correct", "incorrect");
+                    explanation.hidden = true;
+                    submit.disabled = (input.value.trim() === "");
+                });
+                form.addEventListener("submit", async (event) => {
+                    event.preventDefault();
+                    const prompt = `
+                        Verify the submission.
+                        Question: ${question}
+                        Ground truth answer: ${answer}
+                        User's answer: ${input.value.trim()}
+                    `;
+                    const schema = `{
+                        "name": "submission",
+                        "strict": true,
+                        "schema": {
+                            "type": "object",
+                            "properties": {
+                                "correct": { "type": "boolean" },
+                                "explanation": { "type": "string" }
+                            },
+                            "required": ["correct", "explanation"],
+                            "additionalProperties": false
+                        }
+                    }`;
+                    const result = await fetch(
+                        `/api/parse?prompt=${prompt}&schema=${schema}`,
+                        { method: "GET" }
+                    );
+                    if (!result.ok) { throw new Error(`HTTP ${result.status}`); }
+                    const data = JSON.parse(await result.json());
+                    input.classList.toggle("correct", data.correct);
+                    input.classList.toggle("incorrect", !data.correct);
+                    explanation.innerHTML = `
+                        ${transform(data.explanation)}
+                    `;
+                    explanation.hidden = false;
+                });
+                return;
+            }
+
+            default: {
                 content.innerHTML = `
                     Oops! Unknown task type.
                 `;
-
                 return;
+            }  
         }
     } catch (error) {
         page.innerHTML = `Oops! Something wrong.`;

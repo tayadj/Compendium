@@ -56,7 +56,7 @@
     text-align: justify;
 }
 
-#wrapper.task .container .content .form {
+#wrapper.task .container .content #choice.form {
     width: auto;
     height: auto;
     gap: var(--space-m);
@@ -65,7 +65,7 @@
     flex-direction: column;
 }
 
-#wrapper.task .container .content .question {
+#wrapper.task .container .content #choice.form .question {
     width: auto;
     height: auto;
     padding: var(--space-m);
@@ -80,7 +80,7 @@
     background-color: var(--color-background);
 }
 
-#wrapper.task .container .content .options {
+#wrapper.task .container .content #choice.form .options {
     width: auto;
     height: auto;
     gap: var(--space-m);
@@ -89,7 +89,7 @@
     flex-direction: column;
 }
 
-#wrapper.task .container .content .options .option {
+#wrapper.task .container .content #choice.form .options .option {
     min-width: 320px;
     min-height: 24px;
     padding: 8px;
@@ -104,14 +104,79 @@
     background-color: var(--color-background);
 }
 
-#wrapper.task .container .content .options .option.correct {
+#wrapper.task .container .content #choice.form .options .option.correct {
     color: #2e7d32; 
     background-color: #e4ffe6;
 }
 
-#wrapper.task .container .content .options .option.incorrect {
+#wrapper.task .container .content #choice.form .options .option.incorrect {
     color: #c62828; 
     background-color: #ffe4e4;
+}
+
+
+#wrapper.task .container .content #essay.form {
+    width: auto;
+    height: auto;
+    gap: var(--space-m);
+
+    display: flex;
+    flex-direction: column;
+}
+
+#wrapper.task .container .content #essay.form .question {
+    width: auto;
+    height: auto;
+    padding: var(--space-m);
+    margin: 0px 0px var(--space-m) 0px;
+    border-radius: 24px;
+
+    text-align: center;
+
+    font: var(--text-m-font);
+    color: var(--text-m-color);
+
+    background-color: var(--color-background);
+}
+
+#wrapper.task .container .content #essay.form .input {
+    width: 100%;
+    height: auto;
+    min-height: 120px;
+    padding: var(--space-m);
+    border: none;
+    border-radius: 24px;
+
+    resize: none;
+
+    font: var(--text-xs-font);
+    color: var(--text-xs-color);
+
+    background-color: var(--color-background);
+}
+
+#wrapper.task .container .content #essay.form .input.correct {
+    color: #2e7d32; 
+    background-color: #e4ffe6;
+}
+
+#wrapper.task .container .content #essay.form .input.incorrect {
+    color: #c62828; 
+    background-color: #ffe4e4;
+}
+
+#wrapper.task .container .content #essay.form .explanation {
+    width: auto;
+    height: auto;
+    padding: var(--space-m);
+    border-radius: 24px;
+
+    text-align: left;
+
+    font: var(--text-xs-font);
+    color: var(--text-xs-color);
+
+    background-color: var(--color-background);
 }
 
 #wrapper.task .container .fill {

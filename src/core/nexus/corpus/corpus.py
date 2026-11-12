@@ -10,7 +10,7 @@ class Corpus:
     def __init__(self):
 
         self.root = "/environment/storage"
-        self.storage = collections.defaultdict(lambda: collections.defaultdict(list)) # содержит ссылки на контент
+        self.storage = collections.defaultdict(lambda: collections.defaultdict(list))
         
         for path in pathlib.Path(self.root).iterdir():
 

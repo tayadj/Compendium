@@ -81,10 +81,6 @@ class Engine:
             f"{'\n\n---\n\n'.join([node.content for node in self.nexus.search(self.cortex.cognition.embedding(prompt), 5)])}"
         )
 
-        answer = self.cortex.cognition.llm(context)
+        answer = self.cortex.cognition.completion(context)
 
         return answer
-
-
-
-        

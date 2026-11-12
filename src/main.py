@@ -33,6 +33,16 @@ class Application:
                 status_code = 200
             )
 
+        @self.application.get("/api/parse")
+        def parse(prompt: str, schema: str):
+
+            response = self.engine.cortex.cognition.parse(prompt, schema)
+
+            return fastapi.responses.JSONResponse(
+                content = fastapi.encoders.jsonable_encoder(response),
+                status_code = 200
+            )
+
         self.application.frontend("/", directory = "src/interface")
 
         uvicorn.run(self.application, host = "0.0.0.0", port = 10000)
