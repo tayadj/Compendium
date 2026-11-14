@@ -179,6 +179,89 @@
     background-color: var(--color-background);
 }
 
+#wrapper.task .container .content #match.form {
+    width: auto;
+    height: auto;
+    gap: var(--space-m);
+
+    display: flex;
+    flex-direction: column;
+}
+
+#wrapper.task .container .content #match.form .question {
+    width: auto;
+    height: auto;
+    padding: var(--space-m);
+    margin: 0px 0px var(--space-m) 0px;
+    border-radius: 24px;
+
+    text-align: center;
+
+    font: var(--text-m-font);
+    color: var(--text-m-color);
+
+    background-color: var(--color-background);
+}
+
+#wrapper.task .container .content #match.form .pairs {
+    width: auto;
+    height: auto;
+    gap: var(--space-m);
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#wrapper.task .container .content #match.form .key {
+    width: auto;
+    height: auto;
+    min-height: 24px;
+    padding: 16px;
+    border-radius: 24px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font: var(--text-xs-font);
+    color: var(--text-xs-color);
+
+    background-color: var(--color-background);
+}
+
+#wrapper.task .container .content #match.form .value {
+    width: auto;
+    height: auto;
+    min-height: 24px;
+    padding: 16px;
+    border-radius: 24px;
+
+    cursor: grab;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font: var(--text-xs-font);
+    color: var(--text-xs-color);
+
+    background-color: var(--color-background);
+}
+
+#wrapper.task .container .content #match.form .value.dragging {
+    opacity: 0.5;
+}
+
+#wrapper.task .container .content #match.form .value.correct {
+    color: #2e7d32; 
+    background-color: #e4ffe6;
+}
+
+#wrapper.task .container .content #match.form .value.incorrect {
+    color: #c62828; 
+    background-color: #ffe4e4;
+}
+
 #wrapper.task .container .fill {
     width: auto;
     height: auto;

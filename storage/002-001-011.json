@@ -1,0 +1,12 @@
+{
+    "type": "match",
+    "content": {
+        "question": "Match each main class of machine learning tasks with its description.",
+        "answer": {
+            "Regression": "Predicts a continuous numeric value, such as a price or temperature, from input features.",
+            "Classification": "Predicts a discrete class label, such as spam or not spam, using labeled examples.",
+            "Association": "Finds rules describing items that occur together, such as 'customers who buy bread also buy butter'.",
+            "Clusterization": "Groups unlabeled objects so that items in the same group are more similar to each other than to the rest."
+        }
+    }
+}

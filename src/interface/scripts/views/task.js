@@ -139,6 +139,66 @@ async function load(page) {
                 return;
             }
 
+            case "match": {
+                const { question, answer } = data[id].content;
+                const entries = Object.entries(answer);
+                const keys = [...entries.map(([key]) => key)].sort(() => Math.random() - 0.5);
+                const values = [...entries.map(([, value]) => value)].sort(() => Math.random() - 0.5);
+                content.innerHTML = `
+                    <form class = "form" id = "match">
+                        <div class = "question">${question}</div>
+                        <div class = "pairs">
+                            ${keys.map((key, index) => `
+                                <div class = "key" data-key = "${key}">${key}</div>
+                                <div class = "value" draggable = "true" data-value = "${values[index]}">${values[index]}</div>
+                            `).join("")}
+                        </div>
+                    </form>
+                `;
+                const form = content.querySelector(".form");
+                submit.setAttribute("form", form.id);
+                submit.disabled = false;
+                let dragged = null;
+                form.addEventListener("dragstart", (event) => {
+                    const value = event.target.closest(".value");
+                    if (!value) { return; }
+                    dragged = value;
+                    event.dataTransfer.effectAllowed = "move";
+                    value.classList.add("dragging");
+                    form.querySelectorAll(".value").forEach((value) => { value.classList.remove("correct", "incorrect"); });
+                });
+                form.addEventListener("dragend", () => {
+                    if (!dragged) { return; }
+                    dragged.classList.remove("dragging");
+                    dragged = null;
+                });
+                form.querySelectorAll(".pairs .value").forEach((target) => {
+                    target.addEventListener("dragover", (event) => {
+                        event.preventDefault();
+                        event.dataTransfer.dropEffect = "move";
+                    });
+                    target.addEventListener("drop", (event) => {
+                        event.preventDefault();
+                        if (!dragged || (target === dragged)) { return; }
+                        const placeholder = document.createElement("div");
+                        target.replaceWith(placeholder);
+                        dragged.replaceWith(target);
+                        placeholder.replaceWith(dragged);
+                        form.querySelectorAll(".value").forEach((value) => { value.classList.remove("correct", "incorrect"); });
+                    });
+                });
+                form.addEventListener("submit", (event) => {
+                    event.preventDefault();
+                    form.querySelectorAll(".key").forEach((key) => {
+                        const value = key.nextElementSibling;
+                        const correct = (value.dataset.value === answer[key.dataset.key]);
+                        value.classList.toggle("correct", correct);
+                        value.classList.toggle("incorrect", !correct);
+                    });
+                });
+                return;
+            }
+
             default: {
                 content.innerHTML = `
                     Oops! Unknown task type.
