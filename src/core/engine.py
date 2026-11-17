@@ -54,6 +54,10 @@ class Engine:
 
                         if view["type"] == "choice":
 
+                            pass
+
+                        if view["type"] == "essay":
+
                             document = (
                                 f"Question: {view["content"]["question"]}\n"
                                 f"\n"
@@ -62,6 +66,10 @@ class Engine:
 
                             embedding = self.cortex.cognition.embedding(document)
                             self.nexus.index.insert(document, embedding)
+
+                        if view["type"] == "match":
+
+                            pass
 
             self.nexus.index.save("/environment/storage/.meta/index")
 
