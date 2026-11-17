@@ -1,0 +1,11 @@
+{
+    "type": "match",
+    "content": {
+        "question": "Match each type of machine learning with an example of its typical algorithm.",
+        "answer": {
+            "Supervised learning": "Support vector machines",
+            "Unsupervised learning": "t-Distributed Stochastic Neighbor Embedding",
+            "Reinforcement learning": "State-Action-Reward-State-Action"
+        }
+    }
+}

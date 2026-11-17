@@ -3,10 +3,9 @@
     "content": {
         "question": "Which statement about labels in machine learning is true?",
         "options": [
+            "Reinforcement learning relies on labels called rewards that the environment gives after each action.",
             "Supervised learning requires labeled data, while unsupervised learning works with unlabeled data.",
-            "All three types of machine learning require labeled data.",
-            "Only reinforcement learning requires labeled data.",
-            "Labels are used exclusively in clustering algorithms."
+            "Labels describe the input features of each example rather than the value the model should predict."
         ],
         "answer": "Supervised learning requires labeled data, while unsupervised learning works with unlabeled data."
     }

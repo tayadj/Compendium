@@ -1,13 +1,12 @@
 {
-    "type": "choice",
+    "type": "match",
     "content": {
-        "question": "In K-fold cross-validation, how is the model trained and validated?",
-        "options": [
-            "The model is trained on K − 1 folds and validated on the remaining one; this is repeated K times, so each fold serves as the validation set exactly once.",
-            "The model is trained on one fold and validated on the other K − 1 folds in a single pass.",
-            "The model is trained on all K folds at once and validated on a separate hold-out set.",
-            "The model is trained on half of the data and validated on the other half, once."
-        ],
-        "answer": "The model is trained on K − 1 folds and validated on the remaining one; this is repeated K times, so each fold serves as the validation set exactly once."
+        "question": "Match cross-validation strategies with their descriptions.",
+        "answer": {
+            "K-fold cross-validation": "The model is trained on N − 1 folds and validated on the remaining one; this is repeated N times, so each fold serves as the validation set exactly once.",
+            "Leave-p-out cross-validation": "In each iteration, N samples are held out as the validation set, and the model is trained on the remaining data.",
+            "Chain cross-validation": "Iteratively trained on a growing subset of data and validated on the next data record.",
+            "Sliding window cross-validation": "After each iteration, the train and test window is moved forward by a fixed number of time steps."
+        }
     }
 }

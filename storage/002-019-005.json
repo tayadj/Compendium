@@ -1,13 +1,13 @@
 {
     "type": "choice",
     "content": {
-        "question": "What is Q-Learning?",
+        "question": "How does the agent select actions in Q-Learning, and how are Q-coefficients updated?",
         "options": [
-            "A supervised regression algorithm that fits a hyperplane to labeled states.",
-            "A model-free reinforcement learning strategy used to find the optimal policy for a finite Markov decision process.",
-            "An unsupervised technique that builds a dendrogram of states.",
-            "A probabilistic classifier based on Bayes' theorem."
+            "Actions are always chosen greedily by the highest Q-value, and the Q-coefficients are never updated during training.",
+            "Actions are chosen by balancing exploration and exploitation, and Q-coefficients of the taken pair follow the Bellman update.",
+            "Actions are chosen uniformly at random at every step, and Q-coefficients are averaged over all visited state-action pairs.",
+            "Actions are chosen by always repeating the highest-reward action seen so far, and Q-coefficients come from a covariance matrix."
         ],
-        "answer": "A model-free reinforcement learning strategy used to find the optimal policy for a finite Markov decision process."
+        "answer": "Actions are chosen by balancing exploration and exploitation, and Q-coefficients of the taken pair follow the Bellman update."
     }
 }

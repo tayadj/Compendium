@@ -1,13 +1,13 @@
 {
     "type": "choice",
     "content": {
-        "question": "How is information gain computed?",
+        "question": "What does a high information gain indicate?",
         "options": [
-            "As the difference between the impurity of the parent node and the weighted sum of the impurities of the children nodes.",
-            "As the sum of the entropies of all leaves.",
-            "As the ratio of the number of classes to the number of samples.",
-            "As the product of the parent impurity and the number of children."
+            "The split has effectively separated the data into distinct classes.",
+            "The node was already completely pure before the split.",
+            "The tree has reached its maximum depth.",
+            "The features are highly correlated with each other."
         ],
-        "answer": "As the difference between the impurity of the parent node and the weighted sum of the impurities of the children nodes."
+        "answer": "The split has effectively separated the data into distinct classes."
     }
 }

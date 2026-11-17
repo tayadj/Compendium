@@ -1,13 +1,13 @@
 {
     "type": "choice",
     "content": {
-        "question": "What is the primary objective of a Support Vector Machine?",
+        "question": "Despite its unrealistic independence assumption, where does Naive Bayes perform particularly well?",
         "options": [
-            "To average the values of the k closest training points.",
-            "To assume that all features are conditionally independent given the class.",
-            "To assign each class its own covariance matrix.",
-            "To find the hyperplane that separates the classes while maximizing the margin between them."
+            "On tiny datasets with only two features.",
+            "On time series with strong seasonal trends.",
+            "On large, high-dimensional datasets such as text classification.",
+            "On problems that require maximizing the margin between classes."
         ],
-        "answer": "To find the hyperplane that separates the classes while maximizing the margin between them."
+        "answer": "On large, high-dimensional datasets such as text classification."
     }
 }

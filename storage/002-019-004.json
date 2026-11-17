@@ -1,13 +1,13 @@
 {
     "type": "choice",
     "content": {
-        "question": "What is the correct order of the reinforcement learning process cycle?",
+        "question": "When is Deep Q-Learning needed instead of classic Q-Learning?",
         "options": [
-            "Feedback -> learning -> interaction -> initialization.",
-            "Learning -> initialization -> feedback -> interaction.",
-            "Interaction -> initialization -> learning -> feedback.",
-            "Initialization -> interaction -> feedback -> learning."
+            "When the environment has very few states and actions.",
+            "When the reward signal is always positive.",
+            "When the state space is high-dimensional or continuous.",
+            "When the dataset is labeled and small."
         ],
-        "answer": "Initialization -> interaction -> feedback -> learning."
+        "answer": "When the state space is high-dimensional or continuous."
     }
 }

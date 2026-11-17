@@ -1,7 +1,7 @@
 {
     "type": "choice",
     "content": {
-        "question": "Which limitation of K-means is mentioned in the lesson?",
+        "question": "Which limitation of K-means is might be encountered?",
         "options": [
             "It cannot handle numerical features.",
             "It is sensitive to the initial settings, and results can vary depending on them.",

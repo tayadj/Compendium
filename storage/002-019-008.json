@@ -3,11 +3,11 @@
     "content": {
         "question": "What is the purpose of the replay buffer in Deep Q-Learning?",
         "options": [
-            "It caches the neural network weights so training can be skipped.",
-            "It stores the environment's states so the agent never revisits them.",
-            "It replaces the reward function with a learned one.",
-            "It stores the agent's experiences and trains on random mini-batches, breaking correlations between consecutive experiences and improving convergence."
+            "It caches the neural network weights between updates, so the online and target networks never diverge from each other.",
+            "It stores only the transitions with the highest rewards, so the agent learns exclusively from its most successful episodes.",
+            "It stores past experiences and samples random mini-batches from them, breaking correlations between consecutive transitions and stabilizing training.",
+            "It keeps a copy of the environment's states so the agent can avoid revisiting them in the future."
         ],
-        "answer": "It stores the agent's experiences and trains on random mini-batches, breaking correlations between consecutive experiences and improving convergence."
+        "answer": "It stores past experiences and samples random mini-batches from them, breaking correlations between consecutive transitions and stabilizing training."
     }
 }

@@ -3,11 +3,11 @@
     "content": {
         "question": "Which statement best compares linear and logistic regression?",
         "options": [
-            "Linear regression predicts a continuous dependent variable, while logistic regression estimates the probability of a binary outcome constrained to the range from 0 to 1 by the sigmoid function.",
-            "Linear regression outputs values only between 0 and 1, while logistic regression predicts any real number.",
-            "Both methods estimate the probability of a binary outcome, but with different loss functions.",
-            "Linear regression is used for classification, while logistic regression is used for forecasting continuous values."
+            "Linear regression outputs probabilities between 0 and 1, while logistic regression can predict any real number.",
+            "Linear regression minimizes log loss during training, while logistic regression minimizes mean squared error.",
+            "Linear regression predicts a continuous value, while logistic regression estimates a binary outcome's probability through the sigmoid.",
+            "Linear regression is mainly applied to classification problems, while logistic regression is applied to continuous forecasts."
         ],
-        "answer": "Linear regression predicts a continuous dependent variable, while logistic regression estimates the probability of a binary outcome constrained to the range from 0 to 1 by the sigmoid function."
+        "answer": "Linear regression predicts a continuous value, while logistic regression estimates a binary outcome's probability through the sigmoid."
     }
 }

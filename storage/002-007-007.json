@@ -1,0 +1,12 @@
+{
+    "type": "match",
+    "content": {
+        "question": "Match each concept related to the curse of dimensionality with its correct description.",
+        "answer": {
+            "Curse of dimensionality": "The general phenomenon where machine learning algorithms deteriorate in performance as the number of features increases.",
+            "Data sparsity": "In high-dimensional spaces, points spread out so much that the number of samples needed to maintain a given density grows exponentially with the number of dimensions.",
+            "Hughes phenomenon": "Adding more features improves performance up to a point, after which the model starts fitting noise instead of the underlying signal.",
+            "Dimensionality reduction": "A strategy that combats the curse of dimensionality by selecting or transforming features to reduce the number of dimensions."
+        }
+    }
+}

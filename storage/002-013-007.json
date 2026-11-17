@@ -1,13 +1,10 @@
 {
-    "type": "choice",
+    "type": "match",
     "content": {
-        "question": "You need to predict the selling price of apartments based on their size and location. Which method fits this task best?",
-        "options": [
-            "Linear regression, because the target is a continuous variable.",
-            "Logistic regression, because prices are numeric values.",
-            "Logistic regression, because it maximizes the log-likelihood function.",
-            "Neither method can model prices."
-        ],
-        "answer": "Linear regression, because the target is a continuous variable."
+        "question": "Match business cases with algorithms to apply.",
+        "answer": {
+            "Predict selling price of apartments": "Linear regression",
+            "Estimate whether an email is spam": "Logistic regression"
+        }
     }
 }

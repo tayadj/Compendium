@@ -3,10 +3,10 @@
     "content": {
         "question": "According to the material, why is reinforcement learning well suited for solving real-world tasks?",
         "options": [
-            "Because it does not require any data at all",
+            "Because it can learn successfully without any feedback from the environment",
             "Because it is based on the agent's exploratory abilities instead of a prepared dataset",
-            "Because it always trains on large labeled datasets",
-            "Because it can only be applied to games and simulations"
+            "Because it always learns from large, carefully labeled datasets",
+            "Because it is limited to games and simulations, where mistakes have no real-world consequences"
         ],
         "answer": "Because it is based on the agent's exploratory abilities instead of a prepared dataset"
     }

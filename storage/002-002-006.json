@@ -4,10 +4,10 @@
         "question": "What is plotted on a ROC (Receiver Operating Characteristic) curve?",
         "options": [
             "Precision against recall",
-            "True positive rate (sensitivity or recall) against false positive rate (1 - specificity)",
+            "True positive rate against false positive rate",
             "Mean squared error against mean absolute error",
             "Support against confidence"
         ],
-        "answer": "True positive rate (sensitivity or recall) against false positive rate (1 - specificity)"
+        "answer": "True positive rate against false positive rate"
     }
 }

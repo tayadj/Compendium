@@ -1,0 +1,11 @@
+{
+    "type": "match",
+    "content": {
+        "question": "Match each type of machine learning with the example task that illustrates it.",
+        "answer": {
+            "Supervised learning": "Logistic regression classifying emails as 'spam' or 'not spam'",
+            "Unsupervised learning": "K-means clustering splitting customers into segments based on purchase behavior",
+            "Reinforcement learning": "An agent learning to play chess by trial and error"
+        }
+    }
+}

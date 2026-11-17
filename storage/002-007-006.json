@@ -1,13 +1,7 @@
 {
-    "type": "choice",
+    "type": "essay",
     "content": {
-        "question": "Which of the following is NOT a common strategy to combat the curse of dimensionality?",
-        "options": [
-            "Increasing the number of features as much as possible.",
-            "Dimensionality reduction.",
-            "Feature selection.",
-            "Regularization."
-        ],
-        "answer": "Increasing the number of features as much as possible."
+        "question": "What are the common strategies to combat the curse of dimensionality?",
+        "answer": "There are various approaches: dimensionality reduction (e.g., via feature selection), regularization, normalization, or data preprocessing - all of them might help."
     }
 }

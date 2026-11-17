@@ -1,13 +1,12 @@
 {
-    "type": "choice",
+    "type": "match",
     "content": {
-        "question": "How does a random forest make its final prediction?",
-        "options": [
-            "It combines multiple decision trees and aggregates their predictions.",
-            "It fits one decision tree to the residual errors of another.",
-            "It averages the weights of several logistic regressions.",
-            "It uses gradient descent to optimize the depth of a single tree."
-        ],
-        "answer": "It combines multiple decision trees and aggregates their predictions."
+        "question": "Match typical assemble algorithms with their approaches.",
+        "answer": {
+            "Random forest": "It combines multiple decision trees and aggregates their predictions.",
+            "Gradient boosting": "It builds models sequentially, training each new model to correct the errors made by the previous ones.",
+            "Voting classifier": "It combines predictions of several different classification models by majority vote.",
+            "Voting regressor": "It averages the predictions of several different regression models to produce the final output."
+        }
     }
 }

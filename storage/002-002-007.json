@@ -1,13 +1,13 @@
 {
-    "type": "choice",
+    "type": "match",
     "content": {
-        "question": "Which statement about ROC AUC and PR AUC is correct?",
-        "options": [
-            "ROC AUC is more effective for imbalanced datasets, while PR AUC is more effective for balanced datasets",
-            "PR AUC is more effective for imbalanced datasets, while ROC AUC is more effective for balanced datasets",
-            "Both metrics are designed only for regression problems",
-            "Both metrics are designed only for clustering problems"
-        ],
-        "answer": "ROC AUC is more effective for imbalanced datasets, while PR AUC is more effective for balanced datasets"
+        "question": "Match the various metrics for unsupervised learning problems with their intuitive definitions",
+        "answer": {
+            "Support": "How popular an itemset is, i.e. the frequency of the itemset within the dataset",
+            "Confidence": "Measures the conditional probability of seeing the consequent item given the antecedent",
+            "Lift": "Assesses the increase of the probability of the consequent when the antecedent is present",
+            "Silhouette Score": "How similar instances are to each other within their clusters and how different they are across clusters",
+            "Adjusted Rand Index": "Evaluates expected and predicted clusters adjusting for randomness"
+        }
     }
 }

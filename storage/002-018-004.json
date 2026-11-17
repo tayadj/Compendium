@@ -1,13 +1,7 @@
 {
-    "type": "choice",
+    "type": "essay",
     "content": {
-        "question": "How does Apriori search for frequent itemsets?",
-        "options": [
-            "It uses depth-first search over transaction ID lists.",
-            "It builds a frequent-pattern tree and applies divide-and-conquer.",
-            "It uses breadth-first search, expanding 1-itemsets to 2-itemsets, 3-itemsets and so on while pruning candidates below the minimum support threshold.",
-            "It randomly samples itemsets until their support stops changing."
-        ],
-        "answer": "It uses breadth-first search, expanding 1-itemsets to 2-itemsets, 3-itemsets and so on while pruning candidates below the minimum support threshold."
+        "question": "How does FP-Growth differ from Apriori?",
+        "answer": "Instead of generating candidate itemsets through multiple passes over the data, it uses a divide-and-conquer strategy and a frequent-pattern tree structure."
     }
 }

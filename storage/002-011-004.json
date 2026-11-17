@@ -3,11 +3,11 @@
     "content": {
         "question": "What is the key difference between stochastic and batch gradient descent?",
         "options": [
-            "Batch gradient descent updates the parameters after the entire dataset iteration, while SGD updates them after one or a small random mini-batch of records.",
-            "SGD updates the parameters only after the entire dataset iteration, while batch gradient descent uses mini-batches.",
-            "Batch gradient descent never converges, while SGD always finds the global minimum.",
-            "SGD can only be applied to low-dimensional problems."
+            "BGD updates the parameters after the entire dataset iteration, while SGD updates them after a random mini-batch.",
+            "SGD updates the parameters only after the entire dataset iteration, while BGD uses mini-batches.",
+            "BGD never converges, while SGD always finds the global minimum.",
+            "SGD can only be applied to low-dimensional problems, meanwhile BGD is applicable to high-dimensional problems."
         ],
-        "answer": "Batch gradient descent updates the parameters after the entire dataset iteration, while SGD updates them after one or a small random mini-batch of records."
+        "answer": "BGD updates the parameters after the entire dataset iteration, while SGD updates them after a random mini-batch."
     }
 }

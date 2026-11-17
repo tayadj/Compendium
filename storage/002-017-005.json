@@ -1,13 +1,13 @@
 {
     "type": "choice",
     "content": {
-        "question": "How does hierarchical clustering begin, and how does it proceed?",
+        "question": "Which two parameters does DBSCAN rely on?",
         "options": [
-            "It starts from K random centroids and refines them until convergence.",
-            "It starts by treating each data point as a separate cluster, then iteratively merges the closest clusters based on a chosen distance metric such as Euclidean or Manhattan.",
-            "It starts with one big cluster and splits it randomly until each point stands alone.",
-            "It starts by selecting a random point and expanding a cluster around it via a t-distribution."
+            "The number of clusters K and the number of iterations.",
+            "The learning rate and the margin width.",
+            "Epsilon - the neighbourhood radius - and the minimum number of points required to form a dense region.",
+            "The number of principal components and the explained variance."
         ],
-        "answer": "It starts by treating each data point as a separate cluster, then iteratively merges the closest clusters based on a chosen distance metric such as Euclidean or Manhattan."
+        "answer": "Epsilon - the neighbourhood radius - and the minimum number of points required to form a dense region."
     }
 }

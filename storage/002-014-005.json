@@ -1,13 +1,7 @@
 {
-    "type": "choice",
+    "type": "essay",
     "content": {
         "question": "Which impurity measures are commonly used as splitting criteria in decision trees?",
-        "options": [
-            "Entropy and Gini impurity.",
-            "Precision and recall.",
-            "Mean and median.",
-            "Residual sum of squares and log-likelihood."
-        ],
         "answer": "Entropy and Gini impurity."
     }
 }

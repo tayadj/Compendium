@@ -1,13 +1,13 @@
 {
-    "type": "choice",
+    "type": "match",
     "content": {
-        "question": "In supervised learning, what is the difference between regression and classification?",
-        "options": [
-            "Regression predicts a continuous value, while classification predicts a discrete class label.",
-            "Regression works with unlabeled data, while classification requires labeled data.",
-            "Regression finds hidden clusters in the data, while classification learns from rewards and penalties.",
-            "Regression can only handle text data, while classification can only handle images."
-        ],
-        "answer": "Regression predicts a continuous value, while classification predicts a discrete class label."
+        "question": "Match different common supervised learning algorithms with their descriptions",
+        "answer": {
+            "K-Nearest Neighbours": "It assigns the majority class among the N nearest neighbours of the new point.",
+            "Support Vector Machine": "Primary objest is to find the hyperplane that separates the classes while maximizing the margin between them.",
+            "Linear Discriminant Analysis": "It assumes that every class follows a multivariate normal distribution and all classes share a common covariance matrix.",
+            "Quadratic Discriminant Analysis": "It assumes that every class follows a multivariate normal distribution and each classe has its own covariance matrix.",
+            "Naive Bayes": "Core assumption is that all features are conditionally independent given the class label."
+        }
     }
 }

@@ -1,13 +1,13 @@
 {
     "type": "choice",
     "content": {
-        "question": "When is Deep Q-Learning needed instead of classic Q-Learning?",
+        "question": "How does SARSA update its Q-values, and what policy does this typically produce?",
         "options": [
-            "When the environment has very few states and actions.",
-            "When the reward signal is always positive.",
-            "When the state space is high-dimensional or continuous, so maintaining an explicit Q-table is impossible.",
-            "When the dataset is labeled and small."
+            "It updates using the maximum Q-value over next actions, typically producing a more aggressive policy that ignores exploration risks.",
+            "It updates Q-values only when the episode ends, which leaves the agent without a usable policy until the final outcome.",
+            "It updates using the action actually taken in the next state rather than the maximum, often yielding a more conservative policy.",
+            "It updates Q-values with confidence and lift scores, which produces association rules instead of an action-selection policy."
         ],
-        "answer": "When the state space is high-dimensional or continuous, so maintaining an explicit Q-table is impossible."
+        "answer": "It updates using the action actually taken in the next state rather than the maximum, often yielding a more conservative policy."
     }
 }

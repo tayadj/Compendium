@@ -1,13 +1,7 @@
 {
-    "type": "choice",
+    "type": "essay",
     "content": {
         "question": "A model performs poorly on both the training and validation data. What does this indicate, and what is a good way to fix it?",
-        "options": [
-            "Overfitting - apply stronger regularization and reduce features.",
-            "Underfitting - use a more complex model and add features that better represent the data.",
-            "Overfitting - collect more training data and stop training earlier.",
-            "Underfitting - increase the regularization strength and stop training earlier."
-        ],
-        "answer": "Underfitting - use a more complex model and add features that better represent the data."
+        "answer": "This is the evidence of underfitting. Various approaches to handle this exist: use a more complex model, add features that better represent the data, try simply training the model longer, or check whether your regularization is overzealous - any of it might help."
     }
 }

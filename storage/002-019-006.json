@@ -1,13 +1,13 @@
 {
     "type": "choice",
     "content": {
-        "question": "How does the agent select actions in Q-Learning, and how are Q-coefficients updated?",
+        "question": "How do Q-Learning and SARSA differ in terms of policy?",
         "options": [
-            "Actions are selected using an exploration–exploitation strategy, and after each action the Q-coefficients of the current state-action pair are updated using the Bellman equation.",
-            "Actions are selected randomly forever, and Q-coefficients are simply set to one.",
-            "Actions are selected only by the highest reward seen so far, and Q-coefficients come from a covariance matrix.",
-            "Actions are selected via a hash-tree, and Q-coefficients are pruned below a minimum support threshold."
+            "Q-Learning is on-policy, while SARSA is off-policy and evaluates actions chosen by a separate behavioral policy.",
+            "Both are off-policy, since each learns from transitions produced by an exploration policy rather than a fixed optimal one.",
+            "Q-Learning is off-policy, while SARSA is on-policy and learns the values of actions taken under its own current policy.",
+            "Both are on-policy; the difference lies only in the learning rate and the exploration schedule they apply."
         ],
-        "answer": "Actions are selected using an exploration–exploitation strategy, and after each action the Q-coefficients of the current state-action pair are updated using the Bellman equation."
+        "answer": "Q-Learning is off-policy, while SARSA is on-policy and learns the values of actions taken under its own current policy."
     }
 }

@@ -1,13 +1,12 @@
 {
-    "type": "choice",
+    "type": "match",
     "content": {
-        "question": "In which situation is precision the most suitable metric?",
-        "options": [
-            "When each false positive is costly, e.g. flagging a legitimate email as spam",
-            "When each false negative is costly, e.g. missing a dangerous disease diagnosis",
-            "When the dataset has no labels",
-            "When the target variable is continuous"
-        ],
-        "answer": "When each false positive is costly, e.g. flagging a legitimate email as spam"
+        "question": "Match various metrics with the most suitable situations to apply them.",
+        "answer": {
+            "precision": "When each false positive is costly, e.g. flagging a legitimate email as spam",
+            "recall": "When each false negative is costly, e.g. missing a dangerous disease diagnosis",
+            "F1-score": "When you need a balance between precision and recall, especially on imbalanced classes, e.g. fraud detection where both missing a fraud and wrongly blocking a legitimate transaction are costly",
+            "accuracy": "When the classes are balanced and both error types cost roughly the same, e.g. classifying images of two equally represented categories where any mistake is equally bad"
+        }
     }
 }

@@ -1,13 +1,11 @@
 {
-    "type": "choice",
+    "type": "match",
     "content": {
-        "question": "What is clustering?",
-        "options": [
-            "An unsupervised learning methodology that groups similar data points based on their features to detect natural groupings in the data.",
-            "A supervised learning method that assigns predefined class labels to data points.",
-            "A technique that reduces the number of features while preserving as much information as possible.",
-            "A reinforcement learning approach where an agent learns from rewards and penalties."
-        ],
-        "answer": "An unsupervised learning methodology that groups similar data points based on their features to detect natural groupings in the data."
+        "question": "Match common clustering algorithms with their ideas.",
+        "answer": {
+            "K-Means": "It iteratively assigns data points to the nearest centroid and updates each centroid based on the mean of the data points within the cluster.",
+            "Hierarchical clustering": "It starts by treating each data point as a separate cluster, then iteratively merges the closest clusters based on a chosen distance metric.",
+            "DBSCAN": "It starts from a randomly selected point and expands the cluster by recursively adding neighbouring points, stopping when all points are assigned to a cluster or labeled as noise."
+        }
     }
 }

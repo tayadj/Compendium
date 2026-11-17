@@ -1,0 +1,7 @@
+{
+    "type": "essay",
+    "content": {
+        "question": "When is PCA typically preferred over t-SNE?",
+        "answer": "For data preprocessing and feature engineering as it's considered computationally effective compared to t-SNE."
+    }
+}

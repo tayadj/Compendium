@@ -1,13 +1,11 @@
 {
-    "type": "choice",
+    "type": "match",
     "content": {
-        "question": "What may happen if the learning rate is too large?",
-        "options": [
-            "The algorithm may oscillate around the loss function minimum.",
-            "The convergence will necessarily become slower.",
-            "The gradients will vanish in the earlier layers.",
-            "The model will train faster without any side effects."
-        ],
-        "answer": "The algorithm may oscillate around the loss function minimum."
+        "question": "Match learning rate values with expected behaviours",
+        "answer": {
+            "Large learning rate": "The algorithm may oscillate around the minimum loss.",
+            "Tiny learning rate": "The algorithm converges very slowly.",
+            "Zero learning rate": "The algorithm makes no progress at all."
+        }
     }
 }
