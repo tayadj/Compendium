@@ -3,11 +3,12 @@
     "content": {
         "question": "What does the self-attention mechanism allow the Transformer to do?",
         "options": [
-            "Let each word attend to all other words in the sequence, with learned weights based on relevance, capturing long- and short-term dependencies.",
-            "Let each word attend only to the immediately preceding word.",
-            "Process one time step at a time while keeping hidden memory.",
-            "Compress the whole sequence into a single vector before reading it."
+            "Let each word attend only to a fixed window of nearby words, keeping the attention computation strictly local.",
+            "Process the sequence one time step at a time, carrying information forward through a hidden memory.",
+            "Let each word attend to all other words with weights computed from their relevance, capturing dependencies at any distance.",
+            "Compress the whole sequence into a single fixed-size vector before passing it on to the decoder.",
+            "Let each word attend to all others with equal, unlearned weights so the context is just their average."
         ],
-        "answer": "Let each word attend to all other words in the sequence, with learned weights based on relevance, capturing long- and short-term dependencies."
+        "answer": "Let each word attend to all other words with weights computed from their relevance, capturing dependencies at any distance."
     }
 }

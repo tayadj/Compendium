@@ -1,13 +1,13 @@
 {
-    "type": "choice",
+    "type": "match",
     "content": {
-        "question": "Which activation function maps its input to the range (0, 1) and is therefore suitable for binary classification?",
-        "options": [
-            "ReLU",
-            "Sigmoid",
-            "Softmax",
-            "Leaky ReLU"
-        ],
-        "answer": "Sigmoid"
+        "question": "Match different activation functions with relevant statements.",
+        "answer": {
+            "Sigmoid": "Maps its input to the range (0, 1) and is therefore suitable for binary classification",
+            "ReLU": "Returns zero when its input is negative",
+            "Leaky ReLU": "Prevents dead neuron problem",
+            "Softmax": "Converts a vector of logits into probabilities that sum to one",
+            "Hyperbolic Tangent": "Outputs values between -1 and 1 and typically converges faster because its output is zero-centered"
+        }
     }
 }

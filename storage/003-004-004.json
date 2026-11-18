@@ -1,13 +1,13 @@
 {
     "type": "choice",
     "content": {
-        "question": "What does batch normalization do for each mini-batch during training?",
+        "question": "What is the main difference between batch, layer, group, and instance normalization?",
         "options": [
-            "Normalizes each feature map of every sample independently.",
-            "Divides the channels into groups and normalizes within each group.",
-            "Computes statistics per sample, across its features.",
-            "Computes the mean and variance of the activations across the mini-batch and scales them to roughly zero mean and unit variance."
+            "They differ in the activation functions they are compatible with.",
+            "They differ in how many epochs they require to converge.",
+            "They differ only in the order of layers they can be inserted into.",
+            "They differ in what the normalization statistics are computed over."
         ],
-        "answer": "Computes the mean and variance of the activations across the mini-batch and scales them to roughly zero mean and unit variance."
+        "answer": "They differ in what the normalization statistics are computed over."
     }
 }

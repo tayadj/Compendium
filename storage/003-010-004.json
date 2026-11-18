@@ -3,11 +3,12 @@
     "content": {
         "question": "Why does the Transformer need positional encoding?",
         "options": [
-            "Because it processes tokens in parallel and has no inherent notion of word order, unlike RNNs or LSTMs.",
-            "Because attention heads cannot handle long words.",
-            "Because the loss function requires absolute positions to converge.",
-            "Because the encoder and decoder must share the same weights."
+            "Because the dot products in attention would otherwise fail to detect which tokens are similar to each other.",
+            "Because it processes all tokens in parallel with no built-in notion of order, so position information must be injected.",
+            "Because sinusoidal values generalize better than learned embeddings when the model encounters longer sequences at test time.",
+            "Because the layer normalization inside each block would otherwise become unstable without position-aware statistics.",
+            "Because cross-attention requires the decoder inputs to be aligned with the encoder inputs position by position."
         ],
-        "answer": "Because it processes tokens in parallel and has no inherent notion of word order, unlike RNNs or LSTMs."
+        "answer": "Because it processes all tokens in parallel with no built-in notion of order, so position information must be injected."
     }
 }

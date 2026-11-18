@@ -1,13 +1,13 @@
 {
-    "type": "choice",
+    "type": "match",
     "content": {
-        "question": "Why is Newton's method rarely used in practice for large models?",
-        "options": [
-            "It converges too slowly to be useful.",
-            "It cannot minimize non-convex loss functions.",
-            "Computing and inverting the Hessian is computationally expensive and requires a lot of resources.",
-            "It stops working when the gradient becomes very small."
-        ],
-        "answer": "Computing and inverting the Hessian is computationally expensive and requires a lot of resources."
+        "question": "Match different optimization algorithms with relevant statements about them.",
+        "answer": {
+            "Gradient Descent": "Updates parameters by taking a step proportional to the negative gradient of the loss, scaled by a fixed learning rate.",
+            "Newton's Method": "A second-order method that uses curvature information to take more direct steps toward a minimum, but is expensive for large neural networks.",
+            "Momentum": "Accumulates an exponentially decaying average of past gradients to keep moving in their direction, which accelerates convergence and dampens oscillations.",
+            "RMSProp": "Adapts the step size for each parameter individually by dividing the gradient by an exponentially decaying average of its squared magnitudes.",
+            "Adam": "Combines averaging of gradients with per-parameter adaptive scaling, including bias correction, making it a robust default choice."
+        }
     }
 }

@@ -1,0 +1,15 @@
+{
+    "type": "match",
+    "content": {
+        "question": "Match key structures of transformers with their features.",
+        "answer": {
+            "Self-attention mechanism": "Lets every token attend to all other tokens in the sequence, computing a relevance-weighted combination of their values.",
+            "Encoder-decoder network": "The overall architecture: one stack builds a representation of the input sequence, and a second stack generates the output sequence, linked by cross-attention.",
+            "Multi-head attention": "Runs several attention computations in parallel, each with its own learned projections, so different heads can capture different kinds of relationships.",
+            "Positional encoding": "Injects information about token order into the input embeddings, since attention by itself has no notion of sequence position.",
+            "Feedforward neural network": "A position-wise two-layer MLP applied to each token independently, first expanding and then projecting back the dimensionality.",
+            "Normalization layers": "Stabilize and speed up training by rescaling the activations within each sublayer, keeping their values in a consistent range.",
+            "Residual connections": "Add each sublayer's input to its output, allowing gradients to flow directly through the network and making very deep stacks trainable."
+        }
+    }
+}

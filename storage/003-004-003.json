@@ -1,13 +1,13 @@
 {
-    "type": "choice",
+    "type": "match",
     "content": {
-        "question": "Why is normalization crucial for training neural networks?",
-        "options": [
-            "It stabilizes and accelerates training, reduces sensitivity to parameter initialization, and mitigates internal covariate shift.",
-            "It guarantees that the network will never overfit the training data.",
-            "It eliminates the need for any activation functions in the network.",
-            "It allows the network to train without a loss function."
-        ],
-        "answer": "It stabilizes and accelerates training, reduces sensitivity to parameter initialization, and mitigates internal covariate shift."
+        "question": "Match different types of normalization with their features.",
+        "answer": {
+            "Batch normalization": "Computes the mean and variance of the activations across the mini-batch and scales them to roughly zero mean and unit variance.", 
+            "Layer normalization": "Computes statistics per sample - across the features of each individual training example, rather than across samples.", 
+            "Group normalization": "Strikes a balance between layer and batch normalization and works consistently even with small mini-batch sizes.", 
+            "Instance normalization": "Removes instance-specific contrast information, emphasizing content over style, which is especially suitable for transfer learning.",
+            "Vector normalization": "This type of normalization doesn't exist at all."
+        }
     }
 }

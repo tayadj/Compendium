@@ -1,13 +1,13 @@
 {
     "type": "choice",
     "content": {
-        "question": "In LIME, how are the most important features for a specific instance identified?",
+        "question": "How do LIME and SHAP differ in the scope of interpretability they provide?",
         "options": [
-            "By the order in which the features were fed into the network.",
-            "Features with the highest coefficients in the fitted linear model are considered the most important.",
-            "By counting how often each feature appears in the dataset.",
-            "Features whose perturbation never changes the prediction."
+            "Both provide only global interpretability.",
+            "LIME provides global interpretability, while SHAP provides only local.",
+            "LIME provides only local interpretability, while SHAP provides both local and global.",
+            "Neither provides interpretability - both only speed up training."
         ],
-        "answer": "Features with the highest coefficients in the fitted linear model are considered the most important."
+        "answer": "LIME provides only local interpretability, while SHAP provides both local and global."
     }
 }

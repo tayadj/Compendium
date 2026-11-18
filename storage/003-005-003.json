@@ -1,13 +1,14 @@
 {
     "type": "choice",
     "content": {
-        "question": "What kind of interpretability does LIME provide?",
+        "question": "How does SHAP compute a feature's contribution?",
         "options": [
-            "Local interpretability - it explains individual predictions.",
-            "Global interpretability - it explains the whole model at once.",
-            "Both local and global interpretability.",
-            "It provides no interpretation - it only visualizes the training data."
+            "It computes the gradients of the prediction with respect to each input and accumulates them along a path from a baseline.",
+            "It randomly permutes the feature's values and measures how much the model's performance drops as a result.",
+            "It measures the feature's marginal contribution in every possible coalition of features and averages these contributions over all of them.",
+            "It fits a single global linear surrogate model to the data and uses each coefficient as the feature's contribution.",
+            "It removes the feature from the data, retrains the model, and reports the drop in accuracy as its contribution."
         ],
-        "answer": "Local interpretability - it explains individual predictions."
+        "answer": "It measures the feature's marginal contribution in every possible coalition of features and averages these contributions over all of them."
     }
 }

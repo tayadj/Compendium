@@ -1,13 +1,7 @@
 {
-    "type": "choice",
+    "type": "essay",
     "content": {
-        "question": "Which of the following is a discriminative model?",
-        "options": [
-            "Naive Bayes",
-            "Logistic Regression",
-            "Generative Adversarial Networks",
-            "Variational Autoencoders"
-        ],
-        "answer": "Logistic Regression"
+        "question": "What is the key difference between discriminative and generative models?",
+        "answer": "Discriminative models learn the conditional probability of the output given the input, while generative models model the joint distribution of input and output."
     }
 }

@@ -1,13 +1,12 @@
 {
-    "type": "choice",
+    "type": "match",
     "content": {
-        "question": "Which of the following is a generative model?",
-        "options": [
-            "Gaussian Mixture Models",
-            "Support Vector Machines",
-            "Multilayer Perceptron",
-            "Linear Regression"
-        ],
-        "answer": "Gaussian Mixture Models"
+        "question": "Match quantitative measurement of model types with their lists.",
+        "answer": {
+            "3 discriminative, 0 generative": "Linear Regression, Logistic Regression, Support Vector Machine",
+            "2 discriminative, 1 generative": "Decision Tree, k-Nearest Neighbors, Naive Bayes",
+            "1 discriminative, 2 generative": "Conditional Random Field, Hidden Markov Model, Gaussian Mixture Model",
+            "0 discriminative, 3 generative": "Variational Autoencoder, Generative Adversarial Network, Diffusion Model"
+        }
     }
 }

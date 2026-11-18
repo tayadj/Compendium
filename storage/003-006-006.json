@@ -1,13 +1,13 @@
 {
     "type": "choice",
     "content": {
-        "question": "Adam is a combination of which two optimization methods?",
+        "question": "In Adam, what do the first moment and the second moment of the gradients represent?",
         "options": [
-            "Gradient descent and Newton's method.",
-            "Newton's method and RMSProp.",
-            "Momentum and gradient descent with a fixed learning rate.",
-            "Momentum and RMSProp."
+            "First moment - a moving average of the gradients; second moment - a moving average of the squared gradients.",
+            "First moment - a moving average of the squared gradients; second moment - a moving average of the gradients.",
+            "First moment - the Hessian; second moment - the gradient.",
+            "First moment - the learning rate; second moment - the batch size."
         ],
-        "answer": "Momentum and RMSProp."
+        "answer": "First moment - a moving average of the gradients; second moment - a moving average of the squared gradients."
     }
 }

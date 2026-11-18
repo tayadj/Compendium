@@ -1,13 +1,13 @@
 {
     "type": "choice",
     "content": {
-        "question": "What is a pre-trained model?",
+        "question": "What is fine-tuning?",
         "options": [
-            "A model that trains itself while running on the user's device.",
-            "A model with randomly initialized weights that has never seen data.",
-            "A model that only works on the exact dataset it was built for.",
-            "A pre-built model trained on a vast amount of data by experts, made to be reused."
+            "Taking a pre-trained model and adjusting its parameters to adapt it to a new, specific task.",
+            "Training a brand-new model from randomly initialized weights.",
+            "Deleting the layers of a pre-trained model that are not needed for a downstream task.",
+            "Converting a model's outputs into probabilities that sum to one."
         ],
-        "answer": "A pre-built model trained on a vast amount of data by experts, made to be reused."
+        "answer": "Taking a pre-trained model and adjusting its parameters to adapt it to a new, specific task."
     }
 }

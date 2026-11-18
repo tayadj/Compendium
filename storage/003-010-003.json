@@ -3,11 +3,12 @@
     "content": {
         "question": "What is the purpose of multi-head attention?",
         "options": [
-            "To process only the most important word in the sentence.",
-            "To use multiple attention heads that each learn to attend to different parts of the input, capturing different patterns and correlations.",
-            "To replace the encoder-decoder structure with a single layer.",
-            "To make the model slower but more accurate on short sequences."
+            "To repeat the same attention operation several times and average the outputs, reducing noise in the weights.",
+            "To split the sequence into chunks so that each head processes a different segment of the input.",
+            "To run several attention heads in parallel, each learning to attend to different relationships and patterns in the input.",
+            "To give every word multiple independent embeddings so that rare words end up better represented.",
+            "To ensemble several smaller Transformer models trained separately and then combine all of their attention maps."
         ],
-        "answer": "To use multiple attention heads that each learn to attend to different parts of the input, capturing different patterns and correlations."
+        "answer": "To run several attention heads in parallel, each learning to attend to different relationships and patterns in the input."
     }
 }
