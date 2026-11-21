@@ -1,3 +1,3 @@
-from etesian import Index
+from etesian import Node, Index
 
-__all__ = ["Index"]
+__all__ = ["Node", "Index"]

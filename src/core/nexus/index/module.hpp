@@ -1,8 +1,11 @@
 #pragma once
 
 #include <algorithm>
+#include <any>
+#include <atomic>
 #include <fstream>
 #include <iostream>
+#include <map>
 #include <queue>
 #include <random>
 #include <string>
@@ -14,11 +17,41 @@
 
 struct Node {
 
-    Node(std::string content, std::vector<float> embedding) : content(content), embedding(embedding) {}
+    public:
 
-    std::string content;
-    std::vector<float> embedding;
+        Node(
+            std::string content, 
+            std::vector<float> embedding,
+            std::map<std::string, std::string> metadata = {}
+        ) : 
+            id(++ID),
+            content(content), 
+            embedding(embedding),
+            metadata(metadata)
+        {}
+
+        Node(
+            int id,
+            std::string content, 
+            std::vector<float> embedding,
+            std::map<std::string, std::string> metadata = {}
+        ) : 
+            id(id),
+            content(content), 
+            embedding(embedding),
+            metadata(metadata)
+        {
+            std::cout << "Node #" << id << " initialized.\n";
+        }
+
+        int id;
+        std::string content;
+        std::vector<float> embedding;
+        std::map<std::string, std::string> metadata;
     
+    private:
+
+        static inline std::atomic<int> ID {};
 };
 
 
