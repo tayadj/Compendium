@@ -61,8 +61,9 @@ class Corpus:
                 data = json.loads(data)
                 preview[f"{unit}-000-000"] = {
                         "title" : data["title"],
-                        "description": data["description"],
                         "icon": data["icon"],
+                        "description": data["description"],
+                        "contents": data.get("contents", {}), # temp get
                         "size": len(self.storage[f"{unit}-000-000.json"])
                 }
 

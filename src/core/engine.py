@@ -42,9 +42,13 @@ class Engine:
                                 f"\n"
                                 f"{chunk}\n"
                             )
-
                             embedding = self.cortex.cognition.embedding(document)
-                            self.nexus.index.insert(document, embedding)
+                            node = core.nexus.index.Node(
+                                content = document,
+                                embedding = embedding
+                            )
+
+                            self.nexus.index.insert(node)
 
                 for tasks in content.values():
 
@@ -63,9 +67,13 @@ class Engine:
                                 f"\n"
                                 f"Answer: {view["content"]["answer"]}\n"
                             )
-
                             embedding = self.cortex.cognition.embedding(document)
-                            self.nexus.index.insert(document, embedding)
+                            node = core.nexus.index.Node(
+                                content = document,
+                                embedding = embedding
+                            )
+
+                            self.nexus.index.insert(node)
 
                         if view["type"] == "match":
 
@@ -79,6 +87,11 @@ class Engine:
 
     def query(self, prompt):
 
+        node = core.nexus.index.Node(
+            content = prompt,
+            embedding = self.cortex.cognition.embedding(prompt)
+        )
+
         context = (
             f"You are a friendly assistant for AI-centered Compendium. Answer queries using only relevant knowledge below.\n"
             f"\n"
@@ -86,7 +99,7 @@ class Engine:
             f"\n"
             f"Knowledge:\n"
             f"\n"
-            f"{'\n\n---\n\n'.join([node.content for node in self.nexus.search(self.cortex.cognition.embedding(prompt), 5)])}"
+            f"{'\n\n---\n\n'.join([node.content for node in self.nexus.search(node, 5)])}"
         )
 
         answer = self.cortex.cognition.completion(context)

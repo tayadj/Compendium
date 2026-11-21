@@ -160,34 +160,34 @@ class Index {
             return;
         }
 
-        int insert(const std::string& content, const std::vector<float>& embedding) {
-            int nodeId = graph.size();
+        int insert(const Node& node) {
+            int externalId = node.id;
+            int internalId = graph.size();
+
             int nodeLevel = std::min(globalMaxLevel, distribution(generator));
 
-            graph.emplace_back(content, embedding);
+            graph.push_back(node);
             neighbors.emplace_back(nodeLevel + 1);
 
             if (entry == -1) {
-                entry = nodeId;
+                entry = internalId;
                 currentMaxLevel = nodeLevel;
 
-                return nodeId;
+                return internalId;
             }
-
-            const std::vector<float>& nodeEmbedding = graph[nodeId].embedding;
 
             int entryNode = entry;
             for (int currentLevel = currentMaxLevel; currentLevel > nodeLevel; --currentLevel) {
-                entryNode = greedySearch(nodeEmbedding, entryNode, currentLevel);
+                entryNode = greedySearch(node.embedding, entryNode, currentLevel);
             }
 
             for (int currentLevel = std::min(nodeLevel, currentMaxLevel); currentLevel >= 0; --currentLevel) {
-                std::vector<int> candidates = beamSearch(nodeEmbedding, entryNode, currentLevel, sampleSizeInsert);
-                std::vector<int> selected = selectNeighbors(nodeEmbedding, candidates);
+                std::vector<int> candidates = beamSearch(node.embedding, entryNode, currentLevel, sampleSizeInsert);
+                std::vector<int> selected = selectNeighbors(node.embedding, candidates);
 
                 for (int neighbor : selected) {
-                    addEdge(currentLevel, nodeId, neighbor);
-                    addEdge(currentLevel, neighbor, nodeId);
+                    addEdge(currentLevel, internalId, neighbor);
+                    addEdge(currentLevel, neighbor, internalId);
                     
                     shrinkNeighbors(currentLevel, neighbor);
                 }
@@ -198,14 +198,16 @@ class Index {
             }
 
             if (nodeLevel > currentMaxLevel) {
-                entry = nodeId;
+                entry = internalId;
                 currentMaxLevel = nodeLevel;
             }
 
-            return nodeId;
+            return internalId;
         }
 
-        std::vector<Node> search(const std::vector<float>& query, int cohortSize) {
+        std::vector<Node> search(const Node& node, int cohortSize) {
+            const std::vector<float>& query = node.embedding;
+
             int entryNode = entry;
             for (int currentLevel = currentMaxLevel; currentLevel >= 1; --currentLevel) {
                 entryNode = greedySearch(query, entryNode, currentLevel);
@@ -230,7 +232,7 @@ class Index {
             
             return result;
         }
-
+        
     protected:
 
         float distance(const std::vector<float>& x, const std::vector<float>& y) const {

@@ -13,6 +13,6 @@ class Nexus:
 
         return self.corpus.view(id)
 
-    def search(self, query, size):
+    def search(self, node, size):
 
-        return self.index.search(query, size)
+        return self.index.search(node, size)
