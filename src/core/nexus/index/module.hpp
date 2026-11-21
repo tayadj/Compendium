@@ -1,7 +1,6 @@
 #pragma once
 
 #include <algorithm>
-#include <any>
 #include <atomic>
 #include <fstream>
 #include <iostream>
@@ -20,8 +19,8 @@ struct Node {
     public:
 
         Node(
-            std::string content, 
-            std::vector<float> embedding,
+            std::string content = "", 
+            std::vector<float> embedding = {},
             std::map<std::string, std::string> metadata = {}
         ) : 
             id(++ID),
@@ -32,17 +31,15 @@ struct Node {
 
         Node(
             int id,
-            std::string content, 
-            std::vector<float> embedding,
+            std::string content = "", 
+            std::vector<float> embedding = {},
             std::map<std::string, std::string> metadata = {}
         ) : 
             id(id),
             content(content), 
             embedding(embedding),
             metadata(metadata)
-        {
-            std::cout << "Node #" << id << " initialized.\n";
-        }
+        {}
 
         int id;
         std::string content;

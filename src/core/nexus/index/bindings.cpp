@@ -12,16 +12,16 @@ NB_MODULE(etesian, module) {
     nanobind::class_<Node>(module, "Node")
         .def(
             nanobind::init<std::string, std::vector<float>, std::map<std::string, std::string>>(),
-            nanobind::arg("content"),
-            nanobind::arg("embedding"),
-            nanobind::arg("metadata") = nanobind::dict()
+            nanobind::arg("content") = std::string{}, 
+            nanobind::arg("embedding") = std::vector<float>{},
+            nanobind::arg("metadata") = std::map<std::string, std::string>{}
         )
         .def(
             nanobind::init<int, std::string, std::vector<float>, std::map<std::string, std::string>>(),
             nanobind::arg("id"),
-            nanobind::arg("content"),
-            nanobind::arg("embedding"),
-            nanobind::arg("metadata") = nanobind::dict()
+            nanobind::arg("content") = std::string{}, 
+            nanobind::arg("embedding") = std::vector<float>{},
+            nanobind::arg("metadata") = std::map<std::string, std::string>{}
         )
         .def_ro("id", &Node::id)
         .def_rw("content", &Node::content)
