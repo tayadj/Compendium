@@ -32,6 +32,9 @@
     align-items: center;
     justify-content: center;
 
+    -webkit-user-select: none;
+    user-select: none;
+
     background-color: var(--color-background);
 }
 
@@ -97,6 +100,9 @@
     border: none; 
 
     flex: 0 0 48px;
+    
+    -webkit-user-select: none;
+    user-select: none;
 
     background-color: var(--color-background);
 
