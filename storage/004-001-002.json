@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "Which statement about morphology is correct?",
+        "options": [
+            "Inflectional morphology creates new dictionary words, while derivational morphology only changes grammatical form.",
+            "Inflectional morphology changes grammatical form (e.g., walk -> walked) without creating a new word, while derivational morphology creates new words (e.g., happy -> unhappiness).",
+            "Both inflectional and derivational morphology only affect pronunciation, never meaning.",
+            "Morphemes are always whole words that cannot be decomposed further."
+        ],
+        "answer": "Inflectional morphology changes grammatical form (e.g., walk -> walked) without creating a new word, while derivational morphology creates new words (e.g., happy -> unhappiness)."
+    }
+}

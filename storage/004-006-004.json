@@ -1,0 +1,13 @@
+{
+    "type": "match",
+    "content": {
+        "question": "Match each BERT concept with its role.",
+        "answer": {
+            "[MASK]": "A placeholder token that the model learns to reconstruct during pretraining",
+            "[CLS]": "A special token whose final representation feeds classification heads",
+            "[SEP]": "A separator token joining two segments, e.g., question and passage",
+            "Bidirectional attention": "Lets every token attend to both left and right context during pretraining",
+            "Fine-tuning": "A short supervised training phase adapting the pretrained encoder to a specific task"
+        }
+    }
+}

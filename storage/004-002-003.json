@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "Which task is most likely to be hurt by removing stop words like 'not' and 'the'?",
+        "options": [
+            "Latent Semantic Analysis",
+            "Language modeling",
+            "Sentiment analysis of phrases like 'not good', where stop words carry crucial meaning",
+            "TF-IDF weighting"
+        ],
+        "answer": "Sentiment analysis of phrases like 'not good', where stop words carry crucial meaning"
+    }
+}

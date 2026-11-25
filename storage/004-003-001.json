@@ -1,0 +1,7 @@
+{
+    "type": "essay",
+    "content": {
+        "question": "What are the main limitations of one-hot word representations?",
+        "answer": "The vector dimension equals the vocabulary size, vectors are extremely sparse, and any two distinct words are orthogonal - so one-hot encoding cannot express that 'cat' and 'kitten' are similar, and it carries no notion of meaning or context."
+    }
+}

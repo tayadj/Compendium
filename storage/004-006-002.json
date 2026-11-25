@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "In BERT's masking strategy, of the 15% of selected tokens...",
+        "options": [
+            "all are replaced by [MASK]",
+            "about 80% become [MASK], 10% are replaced by random tokens, and 10% are kept unchanged",
+            "about 50% become [MASK] and 50% are deleted entirely",
+            "all are replaced by random tokens"
+        ],
+        "answer": "about 80% become [MASK], 10% are replaced by random tokens, and 10% are kept unchanged"
+    }
+}

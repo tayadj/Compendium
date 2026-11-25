@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "What does the maximum matching algorithm do in tokenization?",
+        "options": [
+            "It selects the most frequent word in the corpus as a token boundary",
+            "It greedily extracts the longest dictionary word starting at each position, used for languages written without spaces",
+            "It matches each token to its part-of-speech tag",
+            "It finds the longest sentence in a document"
+        ],
+        "answer": "It greedily extracts the longest dictionary word starting at each position, used for languages written without spaces"
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "Which statement best captures the difference between BERT's and GPT's pretraining objectives?",
+        "options": [
+            "BERT predicts the next token with causal attention, GPT reconstructs masked tokens",
+            "BERT reconstructs masked tokens using bidirectional context, GPT predicts the next token with causal attention",
+            "Both use masked language modeling, differing only in model size",
+            "BERT is trained without any objective, purely on next-sentence ranking"
+        ],
+        "answer": "BERT reconstructs masked tokens using bidirectional context, GPT predicts the next token with causal attention"
+    }
+}

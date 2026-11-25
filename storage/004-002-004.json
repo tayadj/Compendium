@@ -1,0 +1,12 @@
+{
+    "type": "match",
+    "content": {
+        "question": "Match each word-form reduction example with the technique that produced it.",
+        "answer": {
+            "'studies' -> 'studi'": "Stemming: crude suffix stripping produced a non-word",
+            "'studies' -> 'study'": "Lemmatization: a valid dictionary form was returned",
+            "'went' -> 'go'": "Lemmatization: an irregular form was correctly mapped via vocabulary and morphology",
+            "'flies' -> 'fli'": "Stemming: rule-based suffix stripping over-stemmed the word"
+        }
+    }
+}

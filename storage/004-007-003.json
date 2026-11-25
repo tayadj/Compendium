@@ -1,0 +1,12 @@
+{
+    "type": "match",
+    "content": {
+        "question": "Match each pretrained model with its architecture and pretraining objective.",
+        "answer": {
+            "BERT": "Encoder-only, pretrained with masked language modeling (and next sentence prediction)",
+            "GPT": "Decoder-only, pretrained with causal next-token prediction",
+            "T5": "Encoder-decoder, pretrained with span corruption and used in a text-to-text framework",
+            "BART": "Encoder-decoder, pretrained by denoising corrupted text"
+        }
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "What is the key difference between top-k and nucleus (top-p) sampling?",
+        "options": [
+            "Top-k always samples from exactly k tokens, while top-p samples from the smallest set of tokens whose cumulative probability exceeds p, so the candidate set adapts to the distribution's shape",
+            "Top-k works only with greedy decoding, while top-p works only with beam search",
+            "Top-k increases entropy, while top-p always reduces the vocabulary to a single token",
+            "Top-p samples only from the k most probable tokens, while top-k uses a probability threshold"
+        ],
+        "answer": "Top-k always samples from exactly k tokens, while top-p samples from the smallest set of tokens whose cumulative probability exceeds p, so the candidate set adapts to the distribution's shape"
+    }
+}

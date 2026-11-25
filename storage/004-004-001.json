@@ -1,0 +1,7 @@
+{
+    "type": "essay",
+    "content": {
+        "question": "State the distributional hypothesis and explain how it underpins word embeddings like word2vec.",
+        "answer": "The distributional hypothesis says that words occurring in similar contexts tend to have similar meanings ('you shall know a word by the company it keeps'). Word2vec operationalizes it by training vectors so that words appearing in similar contexts end up close together in the embedding space."
+    }
+}

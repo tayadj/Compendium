@@ -1,0 +1,7 @@
+{
+    "type": "essay",
+    "content": {
+        "question": "Describe the masked language modeling objective and explain why bidirectionality helps understanding tasks.",
+        "answer": "MLM replaces a fraction of input tokens with [MASK] (some swapped for random tokens or kept) and trains the model to reconstruct them from the uncorrupted context. Since no causal mask is applied, each prediction uses both left and right context, producing rich representations of whole inputs - ideal for understanding tasks like classification, NER and extractive QA."
+    }
+}

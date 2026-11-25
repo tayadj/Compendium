@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "Why must GPT-style models use masked (causal) attention?",
+        "options": [
+            "To reduce the memory footprint of attention",
+            "So that the model cannot look ahead at future tokens, keeping training consistent with autoregressive generation",
+            "To allow the model to see the whole input bidirectionally",
+            "To replace positional encodings"
+        ],
+        "answer": "So that the model cannot look ahead at future tokens, keeping training consistent with autoregressive generation"
+    }
+}

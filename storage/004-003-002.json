@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "Which statement about TF-IDF is correct?",
+        "options": [
+            "TF-IDF assigns high weights to terms that appear frequently in a document but rarely in the rest of the corpus.",
+            "TF-IDF assigns high weights to terms that appear frequently across all documents in the corpus.",
+            "TF-IDF ignores how often a term appears in a given document and only counts document frequency.",
+            "TF-IDF is computed as df(t) divided by tf(t, d)."
+        ],
+        "answer": "TF-IDF assigns high weights to terms that appear frequently in a document but rarely in the rest of the corpus."
+    }
+}

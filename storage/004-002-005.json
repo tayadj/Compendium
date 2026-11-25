@@ -1,0 +1,7 @@
+{
+    "type": "essay",
+    "content": {
+        "question": "When would you prefer stemming over lemmatization, and why?",
+        "answer": "When speed and simplicity matter more than linguistic precision - for example, building a large recall-oriented search index. Stemming needs no lexicon and is cheap, whereas lemmatization requires vocabulary and morphological analysis but returns valid dictionary forms."
+    }
+}

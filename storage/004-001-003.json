@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "The sentence 'I saw the man with the telescope' is a classic example of what phenomenon?",
+        "options": [
+            "Morphological ambiguity, because 'saw' can be a noun or a verb",
+            "Syntactic ambiguity, because the phrase 'with the telescope' can attach to either the verb or the noun",
+            "Phonological ambiguity, because the sentence has two possible pronunciations",
+            "Presupposition, because the sentence assumes a telescope exists"
+        ],
+        "answer": "Syntactic ambiguity, because the phrase 'with the telescope' can attach to either the verb or the noun"
+    }
+}

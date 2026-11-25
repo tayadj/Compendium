@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "What is the role of cross-attention in an encoder-decoder Transformer?",
+        "options": [
+            "It lets the decoder attend to the encoder's outputs at every generation step, connecting the input representation to the generated output",
+            "It lets the encoder attend to the decoder's outputs during encoding",
+            "It replaces positional encodings in both encoder and decoder",
+            "It masks future tokens in the encoder"
+        ],
+        "answer": "It lets the decoder attend to the encoder's outputs at every generation step, connecting the input representation to the generated output"
+    }
+}

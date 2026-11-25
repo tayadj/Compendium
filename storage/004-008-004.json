@@ -1,0 +1,14 @@
+{
+    "type": "match",
+    "content": {
+        "question": "Match each decoding concept with its description.",
+        "answer": {
+            "Greedy decoding": "Always picks the most probable next token; fast but often repetitive",
+            "Beam search": "Maintains several candidate sequences and returns the overall most probable one",
+            "Temperature": "Divides logits to sharpen (T < 1) or flatten (T > 1) the output distribution",
+            "Nucleus (top-p) sampling": "Samples from the smallest token set whose cumulative probability exceeds p",
+            "Repetition penalty": "Discourages the model from looping over already generated tokens",
+            "EOS token": "A stopping criterion that ends generation when predicted"
+        }
+    }
+}

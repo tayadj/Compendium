@@ -1,0 +1,7 @@
+{
+    "type": "essay",
+    "content": {
+        "question": "Explain how the temperature parameter affects sampling and when you would use low versus high temperature.",
+        "answer": "Temperature divides the logits before softmax. T < 1 sharpens the distribution, making output more deterministic and repetitive; T > 1 flattens it, making output more diverse and creative but riskier. Low temperature suits factual, closed tasks (translation, code); high temperature suits creative or brainstorming tasks."
+    }
+}

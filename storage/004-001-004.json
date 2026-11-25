@@ -1,0 +1,15 @@
+{
+    "type": "match",
+    "content": {
+        "question": "Match each level of linguistic analysis with the phenomenon it studies.",
+        "answer": {
+            "Phonetics": "Physical properties of speech sounds: how they are articulated and perceived, e.g., aspirated [pʰ] in 'pin' vs. unaspirated [p] in 'spin'",
+            "Phonology": "The abstract sound system of a language: phonemes like /p/ and /b/ that distinguish words such as 'pat' and 'bat'",
+            "Morphology": "Smallest meaning-bearing units: roots and affixes like the plural -s or derivational un-",
+            "Syntax": "How words combine into phrases and sentences, e.g., via rules like S -> NP VP",
+            "Semantics": "Literal meaning and sense ambiguity, e.g., 'bank' as a river bank or a financial institution",
+            "Pragmatics": "Context-dependent meaning: speech acts, deixis and Grice's maxims",
+            "Discourse": "Cohesion and coherence across sentences, including anaphora and coreference"
+        }
+    }
+}

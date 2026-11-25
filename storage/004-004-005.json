@@ -1,0 +1,13 @@
+{
+    "type": "match",
+    "content": {
+        "question": "Match each embedding concept with its description.",
+        "answer": {
+            "Skip-gram": "Predicts context words from the center word; robust for rare words",
+            "CBOW": "Predicts the center word from its surrounding context; faster to train",
+            "Negative sampling": "Learns to separate true (word, context) pairs from randomly sampled negative words instead of a full softmax",
+            "GloVe": "Trained on global co-occurrence statistics, combining count-based and prediction-based ideas",
+            "fastText": "Represents words as bags of character n-grams, handling rare and out-of-vocabulary words"
+        }
+    }
+}

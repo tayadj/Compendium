@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "What is the difference between the Skip-gram and CBOW variants of word2vec?",
+        "options": [
+            "Skip-gram predicts the center word from the surrounding context, while CBOW predicts the surrounding context words from the center word.",
+            "Skip-gram predicts the surrounding context words from the center word, while CBOW predicts the center word from the surrounding context.",
+            "Skip-gram works on characters, while CBOW works on whole words.",
+            "Skip-gram uses global co-occurrence counts, while CBOW uses only local counts."
+        ],
+        "answer": "Skip-gram predicts the surrounding context words from the center word, while CBOW predicts the center word from the surrounding context."
+    }
+}

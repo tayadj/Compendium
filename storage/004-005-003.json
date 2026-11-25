@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "Which statement about the GPT architecture is correct?",
+        "options": [
+            "It is encoder-only with bidirectional attention",
+            "It is decoder-only: a stack of Transformer blocks with masked self-attention and no encoder or cross-attention",
+            "It is an encoder-decoder with cross-attention between them",
+            "It is a recurrent network with LSTM cells"
+        ],
+        "answer": "It is decoder-only: a stack of Transformer blocks with masked self-attention and no encoder or cross-attention"
+    }
+}

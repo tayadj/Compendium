@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "Beam search with beam size b...",
+        "options": [
+            "always selects the single most probable token at each step and forgets all alternatives",
+            "keeps the b most probable partial sequences at each step and returns the overall highest-probability sequence",
+            "randomly samples b tokens at each step from the full vocabulary",
+            "is only applicable to encoder-only models such as BERT"
+        ],
+        "answer": "keeps the b most probable partial sequences at each step and returns the overall highest-probability sequence"
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "type": "match",
+    "content": {
+        "question": "Match each concept from causal language modeling with its description.",
+        "answer": {
+            "Causal (masked) attention": "Each position may attend only to itself and previous positions",
+            "Next-token prediction": "The training objective: predict the following token given the prefix",
+            "Autoregressive generation": "Producing text by repeatedly predicting and appending one token at a time",
+            "EOS token": "A special token whose prediction stops the generation process"
+        }
+    }
+}

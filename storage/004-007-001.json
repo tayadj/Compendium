@@ -1,0 +1,7 @@
+{
+    "type": "essay",
+    "content": {
+        "question": "Explain the text-to-text framework of T5 and the role of task prefixes in it.",
+        "answer": "T5 casts every NLP task - translation, classification, QA, summarization - as generating a text output from a text input. A task prefix such as 'translate English to German:' or 'summarize:' is prepended to the input so the model knows which task to perform; one architecture, one span-corruption pretraining objective and one decoding procedure therefore serve all tasks."
+    }
+}

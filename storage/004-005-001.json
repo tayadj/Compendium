@@ -1,0 +1,7 @@
+{
+    "type": "essay",
+    "content": {
+        "question": "Describe the causal language modeling objective and explain why it suits text generation so well.",
+        "answer": "Causal LM trains the model to predict the next token given the previous ones, using masked attention so no future token is visible. Because generation at inference is exactly this procedure - appending predicted tokens one by one - the training objective and the inference task match perfectly, enabling coherent autoregressive generation."
+    }
+}

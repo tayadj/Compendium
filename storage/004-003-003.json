@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "In BM25, the parameters k1 and b control...",
+        "options": [
+            "the learning rate and the batch size during training",
+            "term-frequency saturation and document-length normalization, respectively",
+            "the number of clusters and the number of dimensions in LSA",
+            "the query length and the index size"
+        ],
+        "answer": "term-frequency saturation and document-length normalization, respectively"
+    }
+}

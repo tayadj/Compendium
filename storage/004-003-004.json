@@ -1,0 +1,12 @@
+{
+    "type": "match",
+    "content": {
+        "question": "Match each sparse representation with its key property.",
+        "answer": {
+            "One-hot": "A single 1 per word; all word vectors are mutually orthogonal, so similarity cannot be expressed",
+            "Bag-of-words": "A vector of term counts that ignores word order",
+            "TF-IDF": "Term frequency scaled by rarity across the corpus, down-weighting ubiquitous words",
+            "BM25": "Probabilistic ranking with term-frequency saturation (k1) and length normalization (b)"
+        }
+    }
+}

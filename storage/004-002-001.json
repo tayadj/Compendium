@@ -1,0 +1,7 @@
+{
+    "type": "essay",
+    "content": {
+        "question": "Why does naive whitespace tokenization fail on natural text? Give at least two examples.",
+        "answer": "Whitespace does not reflect linguistic units: 'don't' merges a clitic with a word, 'New York' splits a single entity, hyphenated compounds like 'state-of-the-art' break apart, and languages written without spaces (e.g., Chinese) cannot be split at all without a maximum matching algorithm or statistical tokenizer."
+    }
+}

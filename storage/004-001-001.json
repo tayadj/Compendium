@@ -1,0 +1,7 @@
+{
+    "type": "essay",
+    "content": {
+        "question": "What is the difference between phonetics and phonology?",
+        "answer": "Phonetics studies the physical production and acoustic properties of speech sounds (IPA, formants, MFCCs, prosody), whereas phonology studies the abstract sound system of a language - how phonemes function to distinguish meaning, as /p/ and /b/ distinguish 'pat' from 'bat'."
+    }
+}

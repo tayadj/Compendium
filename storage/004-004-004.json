@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "Why is the word 'bank' a problem for static embeddings like word2vec and GloVe?",
+        "options": [
+            "Because static embeddings are too small to encode rare words",
+            "Because each word type has a single vector, so both of its senses - river bank and financial institution - collapse into one representation",
+            "Because 'bank' cannot be represented as character n-grams",
+            "Because static embeddings cannot be evaluated on analogy tasks"
+        ],
+        "answer": "Because each word type has a single vector, so both of its senses - river bank and financial institution - collapse into one representation"
+    }
+}

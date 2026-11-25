@@ -1,0 +1,13 @@
+{
+    "type": "choice",
+    "content": {
+        "question": "What is the key advantage of fastText over word2vec and GloVe?",
+        "options": [
+            "It produces a different vector for each occurrence of a word",
+            "It represents words as bags of character n-grams, so rare and out-of-vocabulary words, even misspellings, still get vectors",
+            "It requires a smaller vocabulary to be useful",
+            "It eliminates the need for a corpus"
+        ],
+        "answer": "It represents words as bags of character n-grams, so rare and out-of-vocabulary words, even misspellings, still get vectors"
+    }
+}
